@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'MkpaliController@welcome');
+
+// user registration
+Route::get('show', 'MkpaliController@show')->name('show.get');
+Route::get('result', 'MkpaliController@result')->name('result.get');
