@@ -1,10 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-        <div class="center jumbotron">
+<div class="welcome">
             <div class="text-center">
-                <h1>Welcome to Mkpali</h1>
-                {!! link_to_route('show1.get', 'Sign up now!', null, ['class' => 'btn btn-lg btn-primary']) !!}
+                <h1 class="example">やめて！</h1>
             </div>
-        </div>
+            <div class="rikuzou main">
+                  <a href="http://205d1e128d2a4089b7ee32569afc569f.vfs.cloud9.us-east-2.amazonaws.com/show1?"><img src="images/rikuzo.jpg" alt="rikuzo"></a>
+            </div>
+</div>            
 @endsection
