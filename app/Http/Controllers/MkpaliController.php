@@ -13,6 +13,14 @@ class MkpaliController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+     
+     public function logo()
+    {
+        
+        return view('mkpali.logo');
+        
+    }
+     
      public function welcome()
     {
         
