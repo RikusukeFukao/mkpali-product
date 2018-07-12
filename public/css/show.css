@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+h1 {
+    transform: rotate(-10deg);
+    font-size: 550%;
+    margin-top: 17%;
+    text-align: center;
+}
+
+h2 {
+    transform: rotate(-10deg);
+    font-size: 200%;
+    margin-top: -5%;
+    margin-left: 60%;
+    position: relative;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-image: url(../images/watersplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.countdown {
+    font-size: 1000%;
+    text-align: right;
+    position: absolute;
+    bottom: 0%;
+    right: 7%;
+}
+
+.yesbtn {
+    position: relative;
+    margin-top: 10%;
+}
+
+.btn-primary {
+    background: transparent;
+    color: white;
+    border-color: white;
+    display: block;
+    margin-top: 1%;
+    width: 40%;
+    height: 100%;
+    margin-left: 30%;
+    position: relative;
+    border-width: 5px;
+    font-weight: bold;
+    font-size: 350%;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    font-size: 450%;
+    border-color: white;
+    border-width: 5px;
+    font-weight: bold;
+}
+
+.btn-primary:active {
+    background-color: transparent;
+    font-size: 450%;
+    border-color: white;
+    border-width: 5px;
+    font-weight: bold;
+}
+
+
+.btn-primary:focus {
+    background-color: transparent;
+    font-size: 450%;
+    border-color: white;
+    border-width: 5px;
+    font-weight: bold;
+}
+
+.btn-default {
+    background: transparent;
+    color: white;
+    border-color: white;
+    display: block;
+    margin-top: 1%;
+    width: 30%;
+    margin-left: 35%;
+    position: relative;
+    border-width: 5px;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.btn-default:hover {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-width: 5px;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.btn-default:focus {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-width: 5px;
+    font-weight: bold;
+    font-size: 100%;
+}

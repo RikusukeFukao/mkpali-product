@@ -1,29 +1,40 @@
 @extends('layouts.app')
 
 @section('content')
-        <div class="center jumbotron">
-            <div class="text-center">
-                <?php
-	            $r = rand(0, 2);
-	            if ($r == 0) {
-                ?>
-                
-                <p>指示内容.result1</p>
-                {!! link_to_route('result1.get', 'Sign up now!', null, ['class' => 'btn btn-lg btn-primary']) !!}
-
-                <?php }elseif ($r == 1){ ?>
-                <p>指示内容.result2</p>
-                {!! link_to_route('result2.get', 'Sign up now!', null, ['class' => 'btn btn-lg btn-primary']) !!}
-        
-                <?php }elseif ($r == 2){ ?>
-                <p>指示内容.result3</p>
-                {!! link_to_route('result3.get', 'Sign up now!', null, ['class' => 'btn btn-lg btn-primary']) !!}
-
-
-                <?php } ?>
-
-                {!! link_to_route('show3.get', 'Sign up now!', null, ['class' => 'btn btn-lg btn-primary']) !!}
-            </div>
+      <div class="show">  
+        <div class="text-center">
+          <?php
+          $r = rand(0, 2);
+          if ($r == 0) {
+          ?>
+            
+          <h1>一人でプリクラ、とってこい！</h1>
+          <h2>レベル<br>★★★☆☆</h2>  
+          <div class="yesbtn">
+          {!! link_to_route('result1.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}
+          </div>
+          
+          <?php }elseif ($r == 1){ ?>
+          
+          <h1>一人でプリクラ、とってこい!</h1>
+          <h2>レベル<br>★★★☆☆</h2>  
+          <div class="yesbtn">
+          {!! link_to_route('result2.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}
+          </div>
+          
+          <?php }elseif ($r == 2){ ?>
+          
+          <h1>一人でプリクラ、とってこい!</h1>
+          <h2>レベル<br>★★★☆☆</h2>  
+          <div class="yesbtn">
+          {!! link_to_route('result3.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}
+          </div>
+  
+          <?php } ?>
+          
+          <div class="nobtn">
+          {!! link_to_route('show2.get', '》仕方ねえ、譲るわ…!', null, ['class' => 'btn btn-lg btn-default']) !!}
+          </div>  
         </div>
         
         <head>
@@ -42,14 +53,18 @@
           }
         }// end function
         $(function() {
-          countdown('window.location.replace("http://ef28ed522306466db86cf242e950c098.vfs.cloud9.us-east-2.amazonaws.com/ng?")', 5);
+          countdown('window.location.replace("http://ef28ed522306466db86cf242e950c098.vfs.cloud9.us-east-2.amazonaws.com/ng?")', 100);
         });
         
         </script>
+        
+        <link rel="stylesheet" href="{{ secure_asset('css/show.css') }}">
         </head>
         
         <body>
-            あと<span id="count"></span>秒しかねえぞ！ 
+          <div class="countdown">
+            <span id="count"></span>
+          </div>
         </body>
-        
+      </div>
 @endsection
