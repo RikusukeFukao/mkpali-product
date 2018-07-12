@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+body{
+    background: url("/images/viber image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:black;
+}
+
+@font-face{
+  font-family: "app";
+  src: url("/images/app.woff") format("woff");
+}
+
+
+h1{
+    font-size:50px;
+    font-weight: 900;
+    font-family: "app";
+}
+
+@media screen and (max-width: 320px) and (max-width: 480px) {
+  .box {
+    width: 320px;
+    height: 480px;
+  }
+}
+
+.text-center{
+    margin: 150px 400px 50px 400px;
+}
+                
+.span {
+   padding:50px;
+   background-color: rgba(255,255,255,0.50 );
+   color: black;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(152, 152, 152, 0.43);/*アイコン色*/
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    font-weight: bold;
+    background-image: -webkit-linear-gradient(#e8e8e8 0%, #d6d6d6 100%);
+    background-image: linear-gradient(#e8e8e8 0%, #d6d6d6 100%);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+    border-bottom: solid 2px #b5b5b5;
+}
+.btn .fa {
+    line-height: 80px;
+}
+.btn:active {
+    background-image: -webkit-linear-gradient(#efefef 0%, #d6d6d6 100%);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+    border-bottom: none;
+}
