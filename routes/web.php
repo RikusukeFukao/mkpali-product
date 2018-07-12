@@ -15,6 +15,7 @@ Route::get('/', 'MkpaliController@logo');
 
 Route::get('welcome', 'MkpaliController@welcome')->name('welcome.get');
 
+
 Route::get('show1', 'MkpaliController@show1')->name('show1.get');
 Route::get('show2', 'MkpaliController@show2')->name('show2.get');
 Route::get('show3', 'MkpaliController@show3')->name('show3.get');
