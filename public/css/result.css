@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+.rikuzou img {
+    position: absolute;
+    bottom: 0%;
+    left: 8%;
+    height: 550px;
+    width: 550px;
+}
+    
+.yokuyatta {
+    position: absolute;
+    left: 30%;
+    top: 8%;
+}
+
+.content {
+    margin-top: 70%;
+    position: relative;
+    left: 37%;
+    
+    
+}
+
+
+h1{
+    font-size: 120px;
+    font-weight: bold;
+    margin-top: 200px;
+    font-family: "cursive";
+}
+
+h2{
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 10px double ;
+    width:300px;
+    text-align: center;
+}
+
+p.font1{
+    font-family:"cursive";
+}
+
+
+body {
+    background-color: #0099FF;
+    background-image: url("waterdrops.png");
+    color: white;
+    text-align: center;
+}
+
+body{ background-image:url(images/syuuzou.gif)}
+
+
+img#froatButton1{
+    position:fixed;
+    left: 0%;
+    margin-top:0px;
+}
+
+
+img#froatButton2{
+    position:fixed;
+    right: 0%;
+    margin-top:0px;
+}   
+
+#map {
+    position: relative;
+    left: 32%;
+    margin-bottom: 5%;
+}

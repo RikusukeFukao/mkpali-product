@@ -1,12 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="welcome">
-            <div class="text-center">
-                <h1 class="example">やめて！</h1>
+
+<head> <link rel="stylesheet" href="{{ secure_asset('css/welcome.css') }}"></head>
+            <div class="text-center span">
+                <h1>この画面を見ているそこの君！<br>
+                    <br>
+                    退屈な日常にうんざりしているんだろ？<br>
+                    <br>
+                    さあ、今から自分の殻を破りに行こうぜ！<br>
+                    <br>
+                    Are You Ready? Here We Go!!!
+                    <br>
+                </h1>
+                </font>
+                <a href='show1' class="btn">
+	            <i class="fa fa-power-off"></i>
+                </a>
             </div>
-            <div class="rikuzou main">
-                  <a href="http://205d1e128d2a4089b7ee32569afc569f.vfs.cloud9.us-east-2.amazonaws.com/show1?"><img src="images/rikuzo.jpg" alt="rikuzo"></a>
-            </div>
-</div>            
 @endsection
