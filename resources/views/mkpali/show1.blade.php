@@ -9,7 +9,7 @@
                 ?>
                 
                 <p>指示内容.result1</p>
-                {!! link_to_route('result1.get', 'Sign up now!', null, ['class' => 'btn btn-lg btn-primary']) !!}
+                {!! link_to_route('result1.get', 'YES!', null, ['class' => 'btn btn-lg btn-primary']) !!}
 
                 <?php }elseif ($r == 1){ ?>
                 <p>指示内容.result2</p>
@@ -22,7 +22,7 @@
 
                 <?php } ?>
 
-                {!! link_to_route('show2.get', 'Sign up now!', null, ['class' => 'btn btn-lg btn-primary']) !!}
+                {!! link_to_route('show2.get', 'NO!', null, ['class' => 'btn btn-lg btn-primary']) !!}
             </div>
         </div>
         
