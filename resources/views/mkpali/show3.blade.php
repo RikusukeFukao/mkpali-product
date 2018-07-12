@@ -33,7 +33,7 @@
           <?php } ?>
           
           <div class="nobtn">
-          {!! link_to_route('show2.get', '》仕方ねえ、譲るわ…!', null, ['class' => 'btn btn-lg btn-default']) !!}
+          {!! link_to_route('ng.get', '》仕方ねえ、譲るわ…!', null, ['class' => 'btn btn-lg btn-default']) !!}
           </div>  
         </div>
         
