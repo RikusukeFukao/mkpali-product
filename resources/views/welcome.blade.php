@@ -2,6 +2,10 @@
 
 @section('content')
 
+
+            
+         
+
 <head> <link rel="stylesheet" href="{{ secure_asset('css/welcome.css') }}"></head>
             <div class="text-center span">
                 <h1>この画面を見ているそこの君！<br>
@@ -18,4 +22,5 @@
 	            <i class="fa fa-power-off"></i>
                 </a>
             </div>
+
 @endsection
