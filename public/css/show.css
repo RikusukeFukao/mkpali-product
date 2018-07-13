@@ -24,6 +24,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 .countdown {
@@ -109,4 +110,11 @@ body {
     border-width: 5px;
     font-weight: bold;
     font-size: 100%;
+}
+
+.show{
+    max-height: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
 }

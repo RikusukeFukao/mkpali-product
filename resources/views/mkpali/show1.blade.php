@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-      <div class="show">  
+      <div class="show"> 
         <div class="text-center">
           <?php
           $r = rand(0, 2);

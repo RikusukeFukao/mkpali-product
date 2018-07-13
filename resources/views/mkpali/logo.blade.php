@@ -25,7 +25,7 @@
           }
         }// end function
         $(function() {
-          countdown('window.location.replace("http://205d1e128d2a4089b7ee32569afc569f.vfs.cloud9.us-east-2.amazonaws.com/welcome?")', 3);
+          countdown('window.location.replace("https://mkpali-product.herokuapp.com/welcome")', 3);
         });
         
         </script>
