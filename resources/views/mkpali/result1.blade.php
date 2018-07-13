@@ -37,7 +37,6 @@
                 <h2>指示書</h2>
             </div>    
             
-        
         <div style="line-height: 30pt;">
             <h3 style="margin-top:2em;">楽しむためのアドバイス</h3>
         
@@ -70,7 +69,6 @@
 };
             </script>
         </div>
-          
 <body>
     
 </html>
