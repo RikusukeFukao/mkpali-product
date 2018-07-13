@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'MkpaliController@welcome');
+Route::get('/', 'MkpaliController@logo');
 
 Route::get('welcome', 'MkpaliController@welcome')->name('welcome.get');
 

@@ -3,15 +3,15 @@
 .rikuzou img {
     position: absolute;
     bottom: 0%;
-    left: 8%;
-    height: 550px;
-    width: 550px;
+    left: 7%;
+    height: 90%;
+    width: 40%;
 }
     
 .yokuyatta {
     position: absolute;
-    left: 30%;
-    top: 8%;
+    left: 25%;
+    top: 10%;
 }
 
 .content {
@@ -28,6 +28,7 @@ h1{
     font-weight: bold;
     margin-top: 200px;
     font-family: "cursive";
+    text-align: cent;
 }
 
 h2{
@@ -44,6 +45,7 @@ p.font1{
 
 
 body {
+    min-width:5555px;
     background-color: #0099FF;
     background-image: url("waterdrops.png");
     color: white;
