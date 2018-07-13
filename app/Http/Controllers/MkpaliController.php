@@ -24,7 +24,7 @@ class MkpaliController extends Controller
      public function welcome()
     {
         
-        return view('welcome');
+        return view('mkpali.welcome');
         
     }
     
