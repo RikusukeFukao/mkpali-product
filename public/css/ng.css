@@ -1,9 +1,12 @@
 @charset "UTF-8";
 
-h1{ 
+.aaa{ 
+    top: 40%;
     font-size: 110px;
     font-family: "ＭＳ 明朝",serif;
     font-weight: bold;
+    color: silver;
+    letter-spacing: 30px;
 }
 
 
@@ -35,23 +38,25 @@ body {
 .btn-default{
     font-family: "ＭＳ 明朝",serif;
     display: inline-block;
-    font-size: 350%;
-    width: 100%;
+    font-size: 200%;
+    width: 80%;
     margin-right: 100px;
+    margin-left: 0px;
     position: relative;
-     margin-top: 70px;
+    margin-top: 70px;
+    
 }
 
 .btn-default:hover {
     font-family: "ＭＳ 明朝",serif;
     display: inline-block;
-    font-size: 550%;
+    font-size: 250%;
 }
 
 .btn-default:focus {
     font-family: "ＭＳ 明朝",serif;
     display: inline-block;
-    font-size: 550%;
+    font-size: 250%;
 }
 
 
@@ -59,19 +64,20 @@ body {
 .btn-primary{
    font-family: "ＭＳ 明朝",serif;
     display: inline-block;
-    font-size: 350%;
-    width: 100%;
+    font-size: 200%;
+    width: 120%;
     position: relative;
     background-color: white;
     color: black;
     border-color: white;
     margin-top: 70px;
+    margin-left: 0px;
 }
 
 .btn-primary:hover {
     font-family: "ＭＳ 明朝",serif;
     display: inline-block;
-    font-size: 350%;
+    font-size: 200%;
     background-color: gray;
     color: black;
     border-color: gray;
@@ -80,7 +86,7 @@ body {
 .btn-primary:active {
     font-family: "ＭＳ 明朝",serif;
     display: inline-block;
-    font-size: 350%;
+    font-size: 200%;
     background-color: gray;
     color: black;
     border-color: gray;
@@ -89,7 +95,7 @@ body {
 .btn-primary:focus {
     font-family: "ＭＳ 明朝",serif;
     display: inline-block;
-    font-size: 350%;
+    font-size: 200%;
     background-color: gray;
     color: black;
     border-color: gray;

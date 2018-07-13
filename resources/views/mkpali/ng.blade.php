@@ -7,16 +7,17 @@
 </head>
 
 <body>
-    <h1>   
-    いくじなし
-    </h1>
+    <div class=aaa>   
+    <span display: inline-block;"><span style= "color:black;">いくじ</span>なし</span>
+    
+    </div>
    
     <div class="btn1">
-            {!! link_to_route('show1.get', 'もう一回...', null, ['class' => 'btn btn-lg btn-default']) !!}
+            {!! link_to_route('show1.get', 'もう一回...', null, ['class' => 'btn btn-sm btn-default']) !!}
     </div>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
     <div class="btn2">
-            {!! link_to_route('welcome.get', '一刻も早く死にます', null, ['class' => 'btn btn-lg btn-primary']) !!}
+            {!! link_to_route('welcome.get', '一刻も早く死にます', null, ['class' => 'btn btn-sm btn-primary']) !!}
     </div>
 </body>
 
