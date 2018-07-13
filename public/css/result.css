@@ -26,7 +26,7 @@ h1{
     font-weight: bold;
     margin-top: 200px;
     font-family: "cursive";
-    text-align: cent;
+    text-align: center;
 }
 
 h2{
@@ -34,10 +34,7 @@ h2{
     margin-bottom: 10px;
     border: 10px double ;
     width:300px;
-    display: table-cell;
     text-align: center;
-
-    
 }
 
 p.font1{
@@ -46,7 +43,6 @@ p.font1{
 
 
 body {
-    min-width:5555px;
     background-color: #0099FF;
     background-image: url("waterdrops.png");
     color: white;
