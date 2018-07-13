@@ -25,7 +25,9 @@
           }
         }// end function
         $(function() {
+
           countdown('window.location.replace("https://mkpali-product.herokuapp.com/welcome")', 3);
+
         });
         
         </script>

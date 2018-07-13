@@ -53,7 +53,7 @@
           }
         }// end function
         $(function() {
-          countdown('window.location.replace("http://ef28ed522306466db86cf242e950c098.vfs.cloud9.us-east-2.amazonaws.com/ng?")', 100);
+          countdown('window.location.replace("https://mkpali-product.herokuapp.com/ng")', 100);
         });
         
         </script>
