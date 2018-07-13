@@ -18,8 +18,6 @@
     margin-top: 70%;
     position: relative;
     left: 37%;
-    
-    
 }
 
 
@@ -35,7 +33,10 @@ h2{
     margin-bottom: 10px;
     border: 10px double ;
     width:300px;
+    display: table-cell;
     text-align: center;
+
+    
 }
 
 p.font1{
@@ -69,7 +70,7 @@ img#froatButton2{
 
 #map {
     position: relative;
-    left: 33%;
+    margin:auto;
     margin-bottom: 5%;
 }
 
