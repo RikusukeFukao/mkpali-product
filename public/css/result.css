@@ -64,7 +64,8 @@ img#froatButton1{
 img#froatButton2{
     position: fixed;
     right: 0%;
-    top: 0px;
+    top:0%;
+    bottom:0%;
 }   
 
 #map {
