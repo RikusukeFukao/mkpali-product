@@ -11,21 +11,7 @@ width: 100%;
     
 }
 
-.aaa{
-    font-size: 300px;
-    font-family: 'Yu Gothic UI',sans-serif;
-    font-weight: 900;
-    font-style: italic;
-    
-    text-shadow: 2px 2px 0 #000,
-                -2px 2px 0 #000,
-                2px -2px 0 #000,
-                -2px -2px 0 #000;
-    text-shadow: 2px 2px 1px #000,
-                -2px 2px 1px #000,
-                2px -2px 1px #000,
-                -2px -2px 1px #000;
-}
+
 
 
 .ore img{
