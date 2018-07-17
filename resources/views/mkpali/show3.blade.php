@@ -53,7 +53,7 @@
           }
         }// end function
         $(function() {
-          countdown('window.location.replace("https://mkpali-product.herokuapp.com/ng")', 100);
+          countdown('window.location.replace("ng")', 100);
         });
         
         </script>
