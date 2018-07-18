@@ -11,6 +11,29 @@ width: 100%;
 }
 
 
+
+/*logoeffect*/
+.reflection {
+    height      :100%;
+    width       :100px;
+    position    :absolute;
+    top         :-180px;
+    left        :0;
+    background-color: #fff;
+    opacity     :0;
+    transform: rotate(45deg);
+    animation: reflection 2.5s ease-in-out 1;
+}
+
+@keyframes reflection {
+    0% { transform: scale(0) rotate(-45deg); opacity: 0; }
+    80% { transform: scale(0) rotate(-45deg); opacity: 0.5; }
+    81% { transform: scale(4) rotate(-45deg); opacity: 1; }
+    100% { transform: scale(50) rotate(-45deg); opacity: 0; }
+}
+
+
+
 .ore img{
     position: absolute;
     top: 10%;

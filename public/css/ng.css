@@ -1,14 +1,15 @@
 @charset "UTF-8";
 
-.aaa{ 
-    top: 40%;
-    font-size: 110px;
+.ikujinashi{
+    position: absolute;
+    top: 15%;
+    left: 24%;
+    font-size: 120px;
     font-family: "ＭＳ 明朝",serif;
     font-weight: bold;
     color: silver;
     letter-spacing: 30px;
 }
-
 
 body {
     width: 100%;
@@ -23,80 +24,161 @@ body {
     top: 25%;
 }
 
+/*ここよりボタンアニメーション*/
+.bottom {
+    animation: fadeIn 9s cubic-bezier(1.0, 0, 0.58, 1.0) 0s 1 normal;
+    position: absolute;
+    top: 15%;
+    left: 29%;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
 
 .btn1{
     display: inline-block;
-    
 }
 
 .btn2{
     display: inline-block;
 }
 
-
-
 .btn-default{
     font-family: "ＭＳ 明朝",serif;
     display: inline-block;
     font-size: 200%;
+    font-weight: bold;
     width: 80%;
     margin-right: 100px;
     margin-left: 0px;
     position: relative;
     margin-top: 70px;
-    
+    background-color: transparent;
+    border-color: black;
+    border-width: 2px;
 }
 
 .btn-default:hover {
     font-family: "ＭＳ 明朝",serif;
     display: inline-block;
-    font-size: 250%;
+    background-color: rgba(255, 255, 255, .2);
+    font-size: 200%;
+    font-weight: bold;
+    border-color: black;
+    border-width: 2px;
 }
 
 .btn-default:focus {
     font-family: "ＭＳ 明朝",serif;
     display: inline-block;
-    font-size: 250%;
+    border-width: 5px;
+    font-size: 200%;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, .2)
 }
-
-
 
 .btn-primary{
    font-family: "ＭＳ 明朝",serif;
     display: inline-block;
     font-size: 200%;
+    font-weight: bold;
     width: 120%;
     position: relative;
-    background-color: white;
     color: black;
     border-color: white;
     margin-top: 70px;
     margin-left: 0px;
+    background-color: transparent;
+    border-color: black;
+    border-width: 2px;
 }
 
 .btn-primary:hover {
     font-family: "ＭＳ 明朝",serif;
     display: inline-block;
     font-size: 200%;
-    background-color: gray;
+    font-weight: bold;
     color: black;
-    border-color: gray;
-    
+    background-color: rgba(255, 255, 255, .2);
+    border-color: black;
+    border-width: 2px;
 }
+
 .btn-primary:active {
     font-family: "ＭＳ 明朝",serif;
     display: inline-block;
     font-size: 200%;
-    background-color: gray;
+    font-weight: bold;
     color: black;
-    border-color: gray;
+    background-color: rgba(255, 255, 255, .2);
+    border-width: 2px;
 }
 
 .btn-primary:focus {
     font-family: "ＭＳ 明朝",serif;
     display: inline-block;
     font-size: 200%;
-    background-color: gray;
+    font-weight: bold;
     color: black;
-    border-color: gray;
+    background-color: rgba(255, 255, 255, .2);
+    border-width: 2px;
 }
+
+
+
+
+
+/*ここよりスモーキーエフェクト*/
+body {
+  overflow: hidden;
+  text-align: center;
+  color: transparent;
+  backface-visibility: hidden;
+}
+
+span {
+  display: inline-block;
+  color: black;
+  text-shadow: 0 0 0 whitesmoke;
+  animation: smoky 4s 2s both;
+}
+
+span:nth-child(even){
+  animation-name: smoky-mirror;
+}
+
+@keyframes smoky {
+  60% {
+    text-shadow: 0 0 40px whitesmoke;
+  }
+  to {
+    transform:
+      translate3d(15rem,-8rem,0)
+      rotate(-40deg)
+      skewX(70deg)
+      scale(1.5);
+    text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+@keyframes smoky-mirror {
+  60% {
+    text-shadow: 0 0 40px whitesmoke; }
+  to {
+    transform:
+      translate3d(18rem,-8rem,0)
+      rotate(-40deg) 
+      skewX(-70deg)
+      scale(2);
+     text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+
+
+
+
