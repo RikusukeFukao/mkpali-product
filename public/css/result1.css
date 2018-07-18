@@ -18,8 +18,6 @@
     margin-top: 70%;
     position: relative;
     left: 37%;
-    
-    
 }
 
 
@@ -48,6 +46,8 @@ body {
     background-image: url("waterdrops.png");
     color: white;
     text-align: center;
+    background-size: cover;
+    background-position: center center;
 }
 
 body{ background-image:url(images/syuuzou.gif)}

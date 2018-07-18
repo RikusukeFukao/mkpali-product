@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+@font-face {
+font-family: "Aozora";
+src: url('font/0718aozora.eot');
+src: url('font/0718aozora.woff') format('woff');
+}
+
+.aaa{
+    font-size: 150%;
+    font-family: 'Aozora';
+}
+
+
+
+
 body {
 background-color: #f0f0f0;
 background-image: url(../images/water1.pdf-min2.jpg);

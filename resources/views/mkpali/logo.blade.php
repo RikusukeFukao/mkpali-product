@@ -3,6 +3,10 @@
 @section('content')
 <head><link rel="stylesheet" href="{{ secure_asset('css/logo.css') }}"></head>
 
+            <div class=aaa>
+              俺についてこい！
+            </div>
+
             <div class="ore">
                   <a href=logo.blade.php><img src="../images/ore.png" alt="俺についてこい"></a>
             </div>
@@ -25,7 +29,7 @@
           }
         }// end function
         $(function() {
-          countdown('window.location.replace("http://205d1e128d2a4089b7ee32569afc569f.vfs.cloud9.us-east-2.amazonaws.com/welcome?")', 3);
+          countdown('window.location.replace("http://205d1e128d2a4089b7ee32569afc569f.vfs.cloud9.us-east-2.amazonaws.com/welcome?")', 30);
         });
         
         </script>

@@ -16,7 +16,7 @@
           
           <?php }elseif ($r == 1){ ?>
           
-          <h1>一人でプリクラ、とってこい!</h1>
+          <h1>パチンコ</h1>
           <h2>レベル<br>★★★☆☆</h2>  
           <div class="yesbtn">
           {!! link_to_route('result2.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}
