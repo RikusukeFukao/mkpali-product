@@ -3,8 +3,13 @@
 h1 {
     transform: rotate(-10deg);
     font-size: 550%;
+    font-weight: bold;
     margin-top: 17%;
     text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px transparent, 5px 5px white;
+    /*padding: 0.2em;*/
+    /*background: linear-gradient(transparent 10%, #fff100 70%);*/
 }
 
 h2 {
@@ -24,7 +29,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 .countdown {
@@ -57,27 +61,28 @@ body {
 
 .btn-primary:hover {
     background-color: transparent;
-    font-size: 450%;
     border-color: white;
     border-width: 5px;
     font-weight: bold;
+    border-radius:50px;
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .btn-primary:active {
     background-color: transparent;
-    font-size: 450%;
     border-color: white;
     border-width: 5px;
     font-weight: bold;
+    border-radius:50px;
 }
 
 
 .btn-primary:focus {
     background-color: transparent;
-    font-size: 450%;
     border-color: white;
     border-width: 5px;
     font-weight: bold;
+    border-radius:50px;
 }
 
 .btn-default {
@@ -100,7 +105,7 @@ body {
     border-color: white;
     border-width: 5px;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 150%;
 }
 
 .btn-default:focus {
@@ -109,7 +114,7 @@ body {
     border-color: white;
     border-width: 5px;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 150%;
 }
 
 .show{
@@ -117,4 +122,49 @@ body {
     min-height: 100%;
     max-width: 100%;
     min-width: 100%;
+}
+
+
+
+
+
+
+a.animated-button.thar-three {
+    background: transparent;
+    color: white;
+    border-color: white;
+    display: block;
+    margin-top: 1%;
+    width: 40%;
+    height: 100%;
+    margin-left: 30%;
+    position: relative;
+    border-width: 5px;
+    font-weight: bold;
+    font-size: 350%;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+a.animated-button.thar-three:hover {
+    color: black;
+    background-color: transparent;
+    border-color: black;
+}
+a.animated-button.thar-three:hover:before {
+    left: 0%;
+    right: auto;
+    width: 100%;
+}
+a.animated-button.thar-three:before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: white;
+    background: yellow;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
