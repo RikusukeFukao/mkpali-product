@@ -21,18 +21,13 @@ h1{
     font-family: "app";
 }
 
-@media screen and (max-width: 320px) and (max-width: 480px) {
-  .box {
-    width: 320px;
-    height: 480px;
-  }
-}
-
 .text-center{
-    margin: 75px 300px 30px 300px;
+    margin: 2% 10% 1% 10%;
 }
                 
 .span {
+ 
+   
    padding:50px;
    background-color: rgba(255,255,255,0.50 );
    color: black;

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-      <div class="show">  
+      <div class="show"> 
         <div class="text-center">
           <?php
           $r = rand(0, 2);
@@ -11,7 +11,8 @@
           <h1>一人でプリクラ、とってこい！</h1>
           <h2>レベル<br>★★★☆☆</h2>  
           <div class="yesbtn">
-          {!! link_to_route('result1.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}
+          <a href="result1" class="btn btn-sm animated-button thar-three">俺がやる!</a>
+          <!--{!! link_to_route('result1.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}-->
           </div>
           
           <?php }elseif ($r == 1){ ?>
@@ -19,7 +20,8 @@
           <h1>一人でプリクラ、とってこい!</h1>
           <h2>レベル<br>★★★☆☆</h2>  
           <div class="yesbtn">
-          {!! link_to_route('result2.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}
+          <a href="result1" class="btn btn-sm animated-button thar-three">俺がやる!</a>
+          <!--{!! link_to_route('result2.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}-->
           </div>
           
           <?php }elseif ($r == 2){ ?>
@@ -27,12 +29,14 @@
           <h1>一人でプリクラ、とってこい!</h1>
           <h2>レベル<br>★★★☆☆</h2>  
           <div class="yesbtn">
-          {!! link_to_route('result3.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}
+          <a href="result1" class="btn btn-sm animated-button thar-three">俺がやる!</a>
+          <!--{!! link_to_route('result3.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}-->
           </div>
   
           <?php } ?>
           
           <div class="nobtn">
+          <!--<a href="show2" class="btn btn-sm animated-button thar-two">-->
           {!! link_to_route('show2.get', '》仕方ねえ、譲るわ…!', null, ['class' => 'btn btn-lg btn-default']) !!}
           </div>  
         </div>
@@ -53,7 +57,7 @@
           }
         }// end function
         $(function() {
-          countdown('window.location.replace("http://ef28ed522306466db86cf242e950c098.vfs.cloud9.us-east-2.amazonaws.com/ng?")', 100);
+          countdown('window.location.replace("ng")', 100);
         });
         
         </script>
