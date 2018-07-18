@@ -7,17 +7,19 @@
 </head>
 
 <body>
-    <div class=aaa>   
-    <span display: inline-block;"><span style= "color:black;">いくじ</span>なし</span>
+    <div class=ikujinashi>
+    <span>い</span><span>く</span><span>じ</span><span>な</span><span>し</span>
+    </div>
     
-    </div>
-   
-    <div class="btn1">
-            {!! link_to_route('show1.get', 'もう一回...', null, ['class' => 'btn btn-sm btn-default']) !!}
-    </div>
-        
-    <div class="btn2">
-            {!! link_to_route('welcome.get', '一刻も早く死にます', null, ['class' => 'btn btn-sm btn-primary']) !!}
+    
+    <div class="bottom">
+      <div class="btn1">
+        {!! link_to_route('show1.get', 'もう一回...', null, ['class' => 'btn btn-sm btn-default']) !!}
+      </div>
+          
+      <div class="btn2">
+        {!! link_to_route('welcome.get', '一刻も早く死にます', null, ['class' => 'btn btn-sm btn-primary']) !!}
+      </div>
     </div>
 </body>
 
