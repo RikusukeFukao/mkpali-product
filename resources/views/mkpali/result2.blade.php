@@ -9,8 +9,8 @@
     </head>
 
     <body>
-        <img src="./images/waterdrops.png" alt="fixedImage" id="froatButton1">
-        <img src="./images/waterdrops2.png" alt="fixedImage" id="froatButton2">
+        <!--<img src="./images/waterdrops.png" alt="fixedImage" id="froatButton1">-->
+        <!--<img src="./images/waterdrops2.png" alt="fixedImage" id="froatButton2">-->
         
         <div class="rikuzou">
             <img src="./images/syuuzou.gif" alt="りくぞう">
@@ -22,14 +22,19 @@
             今しかできないことをしよう！
         </div>
         
+        
+    <div id="wrap">
         <!--指示書-->
         <div class="content">
             <p>指示書<p>
         </div>    
         
         <!--パチンコスロットの流れ-->
-        <div id="wrap">
+        <div id="introduction">
             <h3>パチンコ・スロットの流れ</h3>
+            <div class=pachinkoicon>
+                <img src="../images/iconpachinko.jpg" alt="pachi" height="180" width="180" />
+            </div>
                 <p>
                 ①お金を入れる<br>
                 ②プレイする<br>
@@ -40,13 +45,16 @@
         
         <!--ビギナーへのすすめ-->
         <div id="beginner">
-            <h3>ビギナーへの勧め</h3>
+            <div class=beginicon>
+            <img src="../images/beginner.jpg" alt="beginner" height="180" width="180" />
+            </div>
+            
             <p>
-                イヤホンをつけて入店することで、耳へのダメージをこと和らげることができるぞ。<br>
-                若者の多い店の方が、客の民度は高い。田舎の僻地より、繁華街を攻めよう。<br>
-                何かあればすぐに店員さんを呼ぼう。光の速さで来てくれるぞ。<br>
-                自分の知っているアニメや漫画の台に座ると、より楽しめること間違いなし。<br>
-                嫌な偏見を持つのはやめよう。パチンコ屋は「夢の国」だ！！！
+                ✍イヤホンをつけて入店することで、耳へのダメージをこと和らげることができるぞ。<br>
+                ✍若者の多い店の方が、客の民度は高い。田舎の僻地より、繁華街を攻めよう。<br>
+                ✍何かあればすぐに店員さんを呼ぼう。光の速さで来てくれるぞ。<br>
+                ✍自分の知っているアニメや漫画の台に座ると、より楽しめること間違いなし。<br>
+                ✍嫌な偏見を持つのはやめよう。パチンコ屋は「夢の国」だ！！！
             </p>
         </div>
         
@@ -75,7 +83,7 @@
                 <h3>☆おすすめパチンコ☆</h3>
                 <p class="shop">エスパス日拓溝の口店</p>
             </div>
-            
+    </div>
             
         <div id="map" style="width:400px; height:300px"></div>
 

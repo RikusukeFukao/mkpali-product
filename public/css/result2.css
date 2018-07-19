@@ -8,17 +8,19 @@ src: url('font/0718GenEi.woff') format('woff');
 
 @font-face {
 font-family: "Chikara";
-src: url('font/0718Chikara.eot');
-src: url('font/0718Chikara.woff') format('woff')
+src: url('font/0719Chikara.eot');
+src: url('font/0719Chikara.woff') format('woff')
 }
 
 body {
-    background-color: #0099FF;
-    background-image: url("waterdrops.png");
+    background-color: black;
+    background-image: url("../images/pachinko-trans.jpg");
     color: white;
     text-align: center;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /*りくぞう写真*/
@@ -34,59 +36,117 @@ body {
 /*よくやったテキスト*/
 .yokuyatta {
     position: absolute;
-    font-size:550%;
-    left: 20%;
+    font-size:700%;
+    left: 10%;
     top: 0%;
     font-weight: 900;
     z-index: 10;
     font-family: 'Chikara';
+    color: black;
+    /*background-color: #888888;*/
 }
 
 /*指示書*/
 .content {
-    margin-top: 70%;
+    margin-top: 5%;
     position: relative;
     display: inline-block;
     text-align: center;
     font-size: 500%;
-    font-family: 'GenEi';
+    font-weight: 900;
+    font-family: 'MS UI Gothic',sans-serif;
+    color: red;
+    text-shadow: 2px 2px 0 #000,
+             -2px 2px 0 #000,
+             2px -2px 0 #000,
+             -2px -2px 0 #000;
 }
 
-/*指示書に囲いを付けるとき。中の文字の位置を決める*/
-.content p{
-    margin: 0; 
-    padding: 0;
-}
 
 #wrap{
-    clear:both;
-    width:40%; height:200px;
-    margin:100px; padding:30px; border:5px solid black;
-    background-color:lightgray;
-    margin: 0 auto;
+    /*clear:both;*/
+    background-color:white;
+    /*opacity:0.7;*/
+    margin-top: 55%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 1em;
 }
+
+
+#introduction{
+    clear:both;
+    border: 5px solid #82636b;
+    border-radius: 240px 15px 185px 15px / 15px 200px 15px 185px;
+    padding: 2em;
+    margin: 0 auto;
+    width:60%; height:300%;
+    color: brown;
+    margin-top: 30px;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+
+#introduction h3{
+    font-size: 200%;
+    font-weight: 600;
+}
+
+#introduction p{
+    font-size: 150%;
+    font-weight: 400;
+}
+
 
 #beginner{
-    clear:both;
-    width:40%; height:500px;
-    margin:500px; padding:30px; border:5px solid black;
-    background-color:lightgray;
+    border: 5px solid #880000;
+    border-radius: 4px;
     margin: 0 auto;
+    padding: 0em;
+    padding-left: 6em;
+    padding-right: 6em;
+    position: relative;
+    width:60%; height:30%;
+    color: black;
+    margin-top: 100px;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+    
+#beginner::before {
+    background-color: #fff;
+    color: #880000;
+    content: "ビギナーへの勧め";
+    font-size: 250%;
+    left: 4em;
+    font-weight: 900;
+    padding: 0 .5em;
+    position: absolute;
+    top: -1em;
 }
 
-img#froatButton1{
-    position: fixed;
-    left: 0%;
-    top: 0%;
-    bottom: 0%;
+#beginner p {
+    font-size: 150%;
+    color: #880000;
+    line-height: 250%;
+    font-weight: 600;
+    
 }
+    
+    
 
-img#froatButton2{
-    position: fixed;
-    right: 0%;
-    top:0%;
-    bottom:0%;
-}   
+
+/*img#froatButton1{*/
+/*    position: fixed;*/
+/*    left: 0%;*/
+/*    top: 0%;*/
+/*    bottom: 0%;*/
+/*}*/
+
+/*img#froatButton2{*/
+/*    position: fixed;*/
+/*    right: 0%;*/
+/*    top:0%;*/
+/*    bottom:0%;*/
+/*}   */
 
 #map {
     position: relative;

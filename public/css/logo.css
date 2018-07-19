@@ -12,6 +12,7 @@ width: 100%;
 
 
 
+
 /*logoeffect*/
 .reflection {
     height      :100%;
@@ -24,6 +25,7 @@ width: 100%;
     transform: rotate(45deg);
     animation: reflection 2.5s ease-in-out 1;
 }
+
 
 @keyframes reflection {
     0% { transform: scale(0) rotate(-45deg); opacity: 0; }
