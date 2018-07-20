@@ -3,28 +3,23 @@
 @section('content')
 
 <head> <link rel="stylesheet" href="{{ secure_asset('css/welcome.css') }}" ></head>
-            <div class="text-center span">
-                <h1>この画面を見ているそこの君！<br>
-                さぁ、「非日常」の世界に出発しよう！<br>
-                <br>
-                <br>
-                進め方はとっても簡単！<br>
-                ①出されたお題を読む<br>
-                ②覚悟を決める<br>
-                ③自分で実行する<br>
-                <br>
-                <br>
-                出されたお題を実行するかどうかは<br>
-                10秒以内で決めなければゲームオーバーだ！<br>
-                出されたお題を変えることができるのは３回までだぞ！<br>
-                <br>
-                <br>
-                最後に俺は君の背中を押すことしかできない！<br>
-                実際に行動を起こすのは君自身だ！<br>
-                すべては君にかかっている！！！<br>
-                さぁ！！俺についてこい！！！</h1>
-                <a href='show1' class="btn">
-	            <i class="fa fa-power-off"></i>
-                </a>
-            </div>
+
+<div class="backboard">
+    <div class="dismiss1"><p class="anim-typewriter-1">この画面を見ているそこの君！</p></div>
+    <div class="dismiss2"><p class="anim-typewriter-2">さぁ、「非日常」の世界に出発しよう！</p></div>
+    <div class="dismiss3"><p class="anim-typewriter-3">進め方は簡単だ！</p></div>
+    <div class="dismiss4"><p class="anim-typewriter-4">壱、出されたお題を読む！</p></div>
+    <div class="dismiss5"><p class="anim-typewriter-5">弐、覚悟を決める！</p></div>
+    <div class="dismiss6"><p class="anim-typewriter-6">参、自分で実行する！</p></div>
+    <div class="dismiss7"><p class="anim-typewriter-7">お題を実行するかは１０秒で決めるんだ！</p></div>
+    <div class="dismiss8"><p class="anim-typewriter-8">お題を変えられるのは３回までだぞ！</p></div>
+    <div class="dismiss9"><p class="anim-typewriter-9">最後に</p></div>
+    <div class="dismiss10"><p class="anim-typewriter-10">俺は君の背中を押すことしかできない！</p></div>
+    <div class="dismiss11"><p class="anim-typewriter-11">実際に行動を起こすのは君自身だ！</p></div>
+    <div class="dismiss12"><p class="anim-typewriter-12">すべては君にかかっている！！！</p></div>
+    <div class="dismiss13"><p class="anim-typewriter-13">さぁ！！俺についてこい！！！</p></div>
+</div>    
+    </font>
+    
+    <a href="show1" class="yesbtn appear">》START</a>
 @endsection
