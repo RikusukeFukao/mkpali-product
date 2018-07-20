@@ -53,7 +53,7 @@
           }
         }// end function
         $(function() {
-          countdown('window.location.replace("ng")', 100);
+          countdown('window.location.replace("ng")', 10);
         });
         
         </script>
