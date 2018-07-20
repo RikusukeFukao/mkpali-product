@@ -21,5 +21,7 @@
 </div>    
     </font>
     
-    <a href="show1" class="yesbtn appear">》START</a>
+    <a href="show1" class="yesbtn appear">》START</a>    
+    
 @endsection
+
