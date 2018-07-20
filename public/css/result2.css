@@ -8,14 +8,20 @@ src: url('font/0718GenEi.woff') format('woff');
 
 @font-face {
 font-family: "Chikara";
-src: url('font/0719Chikara.eot');
-src: url('font/0719Chikara.woff') format('woff')
+src: url('font/0720Chikara.eot');
+src: url('font/0720Chikara.woff') format('woff')
+}
+
+@font-face {
+font-family: "Tetsubin";
+src: url('font/tetsubin.orf');
+src: url('font/tetsubin.woff') format('woff')
 }
 
 body {
     background-color: black;
-    background-image: url("../images/pachinko-trans.jpg");
-    color: white;
+    background-image: url("../images/s_pachinko-trans.jpg");
+    color: brown;
     text-align: center;
     background-size: cover;
     background-position: center;
@@ -52,14 +58,14 @@ body {
     position: relative;
     display: inline-block;
     text-align: center;
-    font-size: 500%;
+    font-size: 800%;
     font-weight: 900;
     font-family: 'MS UI Gothic',sans-serif;
     color: red;
-    text-shadow: 2px 2px 0 #000,
-             -2px 2px 0 #000,
-             2px -2px 0 #000,
-             -2px -2px 0 #000;
+    text-shadow: 5px 5px 0 #880000,
+             -5px 5px 0 #880000,
+             5px -5px 0 #880000,
+             -5px -5px 0 #880000;
 }
 
 
@@ -70,7 +76,9 @@ body {
     margin-top: 55%;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom:0%;
     border-radius: 1em;
+    height: 100%;
 }
 
 
@@ -109,6 +117,7 @@ body {
     color: black;
     margin-top: 100px;
     font-family: YuGothic,'Yu Gothic',sans-serif;
+    border-radius: 1em;
 }
     
 #beginner::before {
@@ -130,27 +139,170 @@ body {
     font-weight: 600;
     
 }
-    
-    
+
+.advantage {
+padding: 1em;/*文字周りの余白*/
+color: #880000;/*文字色*/
+background: #F5F5DC;/*背景色*/
+border-bottom: solid 3px #DC143C;/*下線*/
+width:40%; 
+margin-left: 30%;
+margin-top: 20%;
+font-size: 200%;
+font-weight: 900;
+font-family: 'Yu Gothic'
+}
+
+/*爽快りくぞう*/
+.rikuzosoukai{
+    position: relative;
+    z-index: 10;
+}
+
+/*圧倒的爽快感*/
+.soukai{
+    position: relative;
+    font-family: 'Tetsubin';
+    font-size: 500%;  
+    margin-top: 0%;
+    /*margin-bottom: 40%;*/
+    margin-left: 0%;
+    z-index: 20;
+    color: #0000FF;
+    text-shadow: 2px 2px 0 #880000,
+             -2px 2px 0 #880000,
+             2px -2px 0 #880000,
+             -2px -2px 0 #880000;
+}
+
+/*爽快の文章*/
+.soukaicontents {
+    /*padding: 0.5em 1em;*/
+    border: 5px solid #880000;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    position: relative;
+    width:60%; height:150%;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+
+.soukaicontents p {
+    margin: 0; 
+    padding: 0;
+    font-size: 150%;
+    line-height: 250%;
+    font-weight: 900;
+}
+
+/*圧倒的ポジティブ思考*/
+.positive{
+    position: relative;
+    font-family: 'Tetsubin';
+    font-size: 500%;  
+    margin-top: 0%;
+    margin-left: 0%;
+    z-index: 20;
+    color: #0000FF;
+    text-shadow: 2px 2px 0 #880000,
+             -2px 2px 0 #880000,
+             2px -2px 0 #880000,
+             -2px -2px 0 #880000;
+}
+
+/*ポジティブ文章*/
+.positivecontents {
+    border: 5px solid #880000;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    position: relative;
+    width:60%; height:150%;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+
+.positivecontents p {
+    margin: 0; 
+    padding: 0;
+    font-size: 150%;
+    line-height: 250%;
+    font-weight: 900;
+}
 
 
-/*img#froatButton1{*/
-/*    position: fixed;*/
-/*    left: 0%;*/
-/*    top: 0%;*/
-/*    bottom: 0%;*/
-/*}*/
+/*圧倒的運試し*/
+.lucky{
+    position: relative;
+    font-family: 'Tetsubin';
+    font-size: 500%;  
+    margin-top: 0%;
+    margin-left: 0%;
+    z-index: 20;
+    color: #0000FF;
+    text-shadow: 2px 2px 0 #880000,
+             -2px 2px 0 #880000,
+             2px -2px 0 #880000,
+             -2px -2px 0 #880000;
+}
 
-/*img#froatButton2{*/
-/*    position: fixed;*/
-/*    right: 0%;*/
-/*    top:0%;*/
-/*    bottom:0%;*/
-/*}   */
+/*運試し文章*/
+.luckycontents {
+    border: 5px solid #880000;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    position: relative;
+    width:60%; height:150%;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+
+.luckycontents p {
+    margin: 0; 
+    padding: 0;
+    font-size: 150%;
+    line-height: 250%;
+    font-weight: 900;
+}
+
+/*おすすめパチンコ*/
+.recommendation {
+padding: 1em;/*文字周りの余白*/
+color: #880000;/*文字色*/
+background: #F5F5DC;/*背景色*/
+border-bottom: solid 3px #DC143C;/*下線*/
+width:40%; 
+margin-left: 30%;
+margin-top: 20%;
+font-size: 200%;
+font-weight: 900;
+font-family: 'Yu Gothic'
+}
+
+/*エスパス日拓溝の口店*/
+.shop{
+    font-weight: 900;
+    font-family: 'Yu Gothic';
+    margin-top: 5%;
+    font-size: 150%;
+}
+
+.shopinfo{
+    font-weight: 900;
+    font-family: 'Yu Gothic';
+    font-size: 150%;
+}
 
 #map {
     position: relative;
-    left: 33%;
+    left: 32%;
     margin-bottom: 5%;
 }
+
+
 
