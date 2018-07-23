@@ -28,7 +28,7 @@ p{
 .text-center{
     margin: 2% 10% 1% 10%;
 }
-                
+
 .backboard {
     display: inline-block;
     position: absolute;
@@ -42,6 +42,14 @@ p{
     box-shadow: 0 0 0 4px #fff inset;
     background-color: rgba(255,255,255,0.50 );
 }
+
+.riku img{
+    position: absolute;
+    height:100%;
+    width:40%;
+    margin-left:25%;
+    }
+
 
 /* TextAnimation */
 .anim-typewriter-1 {
