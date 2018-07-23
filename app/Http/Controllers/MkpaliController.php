@@ -100,6 +100,7 @@ class MkpaliController extends Controller
         
         return view('mkpali.result5');
     
+    }
     
     public function ng()
     {
