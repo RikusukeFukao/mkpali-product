@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+
+
+
 @font-face {
 font-family: "GenEi";
 src: url('font/0718GenEi.eot');
@@ -18,8 +21,12 @@ src: url('font/tetsubin.orf');
 src: url('font/tetsubin.woff') format('woff')
 }
 
+
+
+
+
 body {
-    background-color: black;
+    background-color: white;
     background-image: url("../images/s_pachinko-trans.jpg");
     color: brown;
     text-align: center;
@@ -42,8 +49,8 @@ body {
 /*よくやったテキスト*/
 .yokuyatta {
     position: absolute;
-    font-size:700%;
-    left: 10%;
+    font-size:650%;
+    left: 7%;
     top: 0%;
     font-weight: 900;
     z-index: 10;
@@ -52,21 +59,91 @@ body {
     /*background-color: #888888;*/
 }
 
+/*<!--Instructionのエフェクトかけてみたコード-->*/
+
+            html, body{
+            height: 100%;
+            font-weight: 800;
+            }
+            
+            /*body{*/
+            /*background: #030321;*/
+            /*font-family: Arial;*/
+            /*}*/
+            
+            svg {
+            display: block;
+            font-size: 500%;
+            /*font: 10.5em 'Montserrat';*/
+            width: 960px;
+            height: 300px;
+            margin: 0 auto;
+            margin-top: 0%;
+            }
+            
+            .text-copy {
+            fill: none;
+            stroke: white;
+            stroke-dasharray: 6% 29%;
+            stroke-width: 5px;
+            stroke-dashoffset: 0%;
+            animation: stroke-offset 5.5s infinite linear;
+            }
+            
+            .text-copy:nth-child(1){
+            stroke: #4D163D;
+            animation-delay: -1;
+            }
+            
+            .text-copy:nth-child(2){
+            stroke: #840037;
+            animation-delay: -2s;
+            }
+            
+            .text-copy:nth-child(3){
+            stroke: #BD0034;
+            animation-delay: -3s;
+            }
+            
+            .text-copy:nth-child(4){
+            stroke: #BD0034;
+            animation-delay: -4s;
+            }
+            
+            .text-copy:nth-child(5){
+            stroke: #FDB731;
+            animation-delay: -5s;
+            }
+            
+            @keyframes stroke-offset{
+            100% {stroke-dashoffset: -35%;}
+            }
+
+
+
+
+
+
+
+
+
+
+
 /*指示書*/
-.content {
-    margin-top: 5%;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    font-size: 800%;
-    font-weight: 900;
-    font-family: 'MS UI Gothic',sans-serif;
-    color: red;
-    text-shadow: 5px 5px 0 #880000,
-             -5px 5px 0 #880000,
-             5px -5px 0 #880000,
-             -5px -5px 0 #880000;
-}
+/*.content {*/
+/*    margin-top: 5%;*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    text-align: center;*/
+/*    font-size: 800%;*/
+/*    font-weight: 900;*/
+/*    font-family: 'MS UI Gothic',sans-serif;*/
+/*    color: #FFFF00;*/
+/*    text-shadow: 5px 5px 0 #880000,*/
+/*             -5px 5px 0 #880000,*/
+/*             5px -5px 0 #880000,*/
+/*             -5px -5px 0 #880000;*/
+/*}*/
 
 
 #wrap{
@@ -101,7 +178,8 @@ body {
 
 #introduction p{
     font-size: 150%;
-    font-weight: 400;
+    font-weight: 900;
+    line-height: 250%;
 }
 
 
@@ -288,8 +366,8 @@ font-family: 'Yu Gothic'
 .shop{
     font-weight: 900;
     font-family: 'Yu Gothic';
-    margin-top: 5%;
-    font-size: 150%;
+    margin-top: 8%;
+    font-size: 250%;
 }
 
 .shopinfo{
