@@ -6,8 +6,6 @@
 
 <a href="show1" class="skipbtn appear2">》SKIP</a>
     
-</div>
-
 <div class="backboard">
     <div class="dismiss1"><p class="anim-typewriter-1">この画面を見ているそこの君！</p></div>
     <div class="dismiss2"><p class="anim-typewriter-2">さぁ、「非日常」の世界に出発しよう！</p></div>
@@ -22,8 +20,6 @@
     <div class="dismiss11"><p class="anim-typewriter-11">実際に行動を起こすのは君自身だ！</p></div>
     <div class="dismiss12"><p class="anim-typewriter-12">すべては君にかかっている！！！</p></div>
     <div class="dismiss13"><p class="anim-typewriter-13">さぁ！！俺についてこい！！！</p></div>
-</div>    
-    </font>
-    
+</div>  
     <a href="show1" class="yesbtn appear">》START</a>
 @endsection

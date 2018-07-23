@@ -24,6 +24,7 @@ overflow-x:hidden;
     animation: reflection 2.5s ease-in-out 1;
 }
 
+
 @keyframes reflection {
     0% { transform: scale(0) rotate(-45deg); opacity: 0; }
     80% { transform: scale(0) rotate(-45deg); opacity: 0.5; }
