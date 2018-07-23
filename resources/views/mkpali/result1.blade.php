@@ -56,6 +56,18 @@
         }
         </script>
     </div>
+     <div id="map2" style="width:400px; height:300px"></div>
+
+        <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
+        <script type="text/javascript">
+        window.onload = function(){
+        var ymap = new Y.Map("map");
+        ymap.drawMap(new Y.LatLng(35.64997652994234,139.72116702175174), 17, Y.LayerSetId.NORMAL);
+        var label = new Y.Label(new Y.LatLng(35.64997652994234,139.72116702175174), "死ね<br>溝の口");
+        ymap.addFeature(label)
+        }
+        </script>
+    </div>
   </font>    
 <body>
 

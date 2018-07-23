@@ -232,7 +232,17 @@ p{
     top: 78%;
     left: 45%;
 }
-
+.appear2{
+     display: inline;
+    color: transparent;
+    animation: gradationTest2;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    font-weight: 900;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+}
 
 
 @keyframes typewriter{

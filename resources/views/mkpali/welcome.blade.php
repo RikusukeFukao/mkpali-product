@@ -4,6 +4,10 @@
 
 <head> <link rel="stylesheet" href="{{ secure_asset('css/welcome.css') }}" ></head>
 
+<a href="show1" class="skipbtn appear2">》SKIP</a>
+    
+</div>
+
 <div class="backboard">
     <div class="dismiss1"><p class="anim-typewriter-1">この画面を見ているそこの君！</p></div>
     <div class="dismiss2"><p class="anim-typewriter-2">さぁ、「非日常」の世界に出発しよう！</p></div>
