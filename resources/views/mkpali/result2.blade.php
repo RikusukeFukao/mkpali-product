@@ -24,10 +24,36 @@
         
         
     <div id="wrap">
+        
+        
+        
+        
         <!--指示書-->
-        <div class="content">
-            <p>指示書<p>
-        </div>    
+        <!--<div class="content">-->
+        <!--    <p>指示書<p>-->
+        <!--</div> -->
+        
+    <!--Instructionのエフェクトかけてみたコード-->
+            <svg viewBox="0 0 960 300">
+            <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">Instruction</text>
+            </symbol>
+            
+            <g class = "g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+            </svg>
+    
+    
+
+        
+        
+        
+        
         
         <!--パチンコスロットの流れ-->
         <div id="introduction">
@@ -39,7 +65,7 @@
                 ①お金を入れる<br>
                 ②プレイする<br>
                 大当たりが出るまで①、②の繰り返し。<br>
-                超EASYね！
+                超EASY！
                 </p>
         </div>
        
