@@ -4,6 +4,12 @@
 
 <head> <link rel="stylesheet" href="{{ secure_asset('css/welcome.css') }}" ></head>
 
+<a href="show1" class="skipbtn appear2">》SKIP</a>
+
+<div class="riku">
+   <img src="../images/riku-smile2.jpg">
+</div>
+
 <div class="backboard">
     <div class="dismiss1"><p class="anim-typewriter-1">この画面を見ているそこの君！</p></div>
     <div class="dismiss2"><p class="anim-typewriter-2">さぁ、「非日常」の世界に出発しよう！</p></div>
@@ -19,9 +25,14 @@
     <div class="dismiss12"><p class="anim-typewriter-12">すべては君にかかっている！！！</p></div>
     <div class="dismiss13"><p class="anim-typewriter-13">さぁ！！俺についてこい！！！</p></div>
 </div>    
+
     </font>
     
     <a href="show1" class="yesbtn appear">》START</a>    
     
+@endsection
+
+
+    <a href="show1" class="yesbtn appear">》START</a>
 @endsection
 
