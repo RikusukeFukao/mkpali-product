@@ -53,8 +53,6 @@ class MkpaliController extends Controller
         return view('mkpali.show3');
         
     }
-     
-    
     
     public function result1()
     {
@@ -127,6 +125,7 @@ class MkpaliController extends Controller
     }
     
     
+    
    
     public function ng()
     {
@@ -135,11 +134,75 @@ class MkpaliController extends Controller
         
     }
     
-    public function ittekoi()
+    public function ittekoi1()
     
     {
         
-        return view('mkpali.ittekoi');
+        return view('mkpali.ittekoi1');
+    
+        
+    }
+    public function ittekoi2()
+    
+    {
+        
+        return view('mkpali.ittekoi2');
+    
+        
+    }
+    public function ittekoi3()
+    
+    {
+        
+        return view('mkpali.ittekoi3');
+    
+        
+    }
+    public function ittekoi4()
+    
+    {
+        
+        return view('mkpali.ittekoi4');
+    
+        
+    }
+    public function ittekoi5()
+    
+    {
+        
+        return view('mkpali.ittekoi5');
+    
+        
+    }
+    public function ittekoi6()
+    
+    {
+        
+        return view('mkpali.ittekoi6');
+    
+        
+    }
+    public function ittekoi7()
+    
+    {
+        
+        return view('mkpali.ittekoi7');
+    
+        
+    }
+    public function ittekoi8()
+    
+    {
+        
+        return view('mkpali.ittekoi8');
+    
+        
+    }
+    public function ittekoi9()
+    
+    {
+        
+        return view('mkpali.ittekoi9');
     
         
     }

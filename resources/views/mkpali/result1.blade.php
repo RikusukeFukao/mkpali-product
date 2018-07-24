@@ -71,8 +71,8 @@
 
 最後までほんとに読んだか？
           <div class="ittekoibtn">
-          <a href="ittekoi" class="btn btn-lg animated-button thar-three">YES</a>
-          <!--{!! link_to_route('ittekoi.get', '》YES', null, ['class' => 'btn btn-lg btn-default']) !!}-->
+          <a href="ittekoi1" class="btn btn-lg animated-button thar-three">YES</a>
+          <!--{!! link_to_route('ittekoi1.get', '》YES', null, ['class' => 'btn btn-lg btn-default']) !!}-->
           </div>
 
 <body>
