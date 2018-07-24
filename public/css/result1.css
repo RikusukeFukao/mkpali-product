@@ -166,4 +166,9 @@ img#froatButton2{
     max-width: 90%; 
     height:auto;
 }
+
+.ittekoibtn{
+    
+    text-decoration: underline;
+}
 }

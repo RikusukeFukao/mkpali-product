@@ -45,7 +45,8 @@ class MkpaliController extends Controller
         return view('mkpali.show2');
         
     }
-    
+
+  
     public function show3()
     {
         
@@ -95,13 +96,26 @@ class MkpaliController extends Controller
     }
     
     
-    
-    
-    
-     public function result6()
+    public function result6()
     {
         
         return view('mkpali.result6');
+    
+    }
+    
+    
+        public function result7()
+    {
+        
+        return view('mkpali.result7');
+    
+    }
+    
+    
+    public function result8()
+    {
+        
+        return view('mkpali.result8');
         
     }
     
@@ -113,6 +127,7 @@ class MkpaliController extends Controller
     }
     
     
+   
     public function ng()
     {
         
@@ -120,5 +135,12 @@ class MkpaliController extends Controller
         
     }
     
+    public function ittekoi()
     
+    {
+        
+        return view('mkpali.ittekoi');
+    
+        
+    }
 }

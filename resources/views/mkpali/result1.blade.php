@@ -58,6 +58,23 @@
     };
             </script>
   
+    <div id="map" style="width:400px; height:300px"></div>
+
+        <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
+        <script type="text/javascript">
+        window.onload = function(){
+        var ymap = new Y.Map("map");
+        ymap.drawMap(new Y.LatLng(36.66572, 139.73100), 17, Y.LayerSetId.NORMAL);
+};
+        </script>
+    </div>
+
+最後までほんとに読んだか？
+          <div class="ittekoibtn">
+          <a href="ittekoi" class="btn btn-lg animated-button thar-three">YES</a>
+          <!--{!! link_to_route('ittekoi.get', '》YES', null, ['class' => 'btn btn-lg btn-default']) !!}-->
+          </div>
+
 <body>
 
 @endsection
