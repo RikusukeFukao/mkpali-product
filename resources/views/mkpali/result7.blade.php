@@ -112,7 +112,17 @@
                     １日３名限定メニュー：<span id="thick">162,000円</span><br>
                     表参道から徒歩5分<br>
                 </p>
-        </div>    
+        </div>   
+        <br>
+            <br>            
+            <br>
+            <br>
+            <br>
+          <div class="ittekoibtn">
+              最後までほんとに読んだか？<br>
+          <a href="ittekoi2" class="btn btn-lg animated-button thar-three">YES</a>
+          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
+          </div>
         
     </div>
 </body>

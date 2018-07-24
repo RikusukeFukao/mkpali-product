@@ -16,7 +16,7 @@
           <h1>今すぐパチンコ、打ってこい！</h1>
           <a href="result2" class="yesbtn">俺がやる!</a>
           
-          
+          <!--
           <?php }elseif ($r == 2){ ?>
           
           <h1>裁判傍聴してこいや！</h1>
@@ -57,7 +57,7 @@
           
           <h1>デモ、参加してみろや！</h1>
           <a href="result9" class="yesbtn">俺がやる!</a>
-          
+          -->
           
           <?php } ?>
           
@@ -80,7 +80,7 @@
           }
         }// end function
         $(function() {
-          countdown('window.location.replace("ng")', 5);
+          countdown('window.location.replace("ng")',5);
         });
         
         </script>

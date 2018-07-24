@@ -90,6 +90,16 @@
                 新しい出会いが期待できるぞ！新しい出会いに乾杯！！！
             </p>            
         </div>
+           <br>
+            <br>            
+            <br>
+            <br>
+            <br>
+          <div class="ittekoibtn">
+              最後までほんとに読んだか？<br>
+          <a href="ittekoi2" class="btn btn-lg animated-button thar-three">YES</a>
+          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
+          </div>
     </section>
         
     <!--wrapのdiv-->
