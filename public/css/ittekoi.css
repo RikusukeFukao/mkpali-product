@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+body{
+    background: url("/images/gokou.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:black;
+}
+
+.riku img{
+    position: absolute;
+    height:100%;
+    width:40%;
+    margin-left:25%;
+    }
+
+@font-face{
+  font-family: "app";
+  src: url("/images/app.woff") format("woff");
+}
+
+
+p{
+    font-size: 43px;
+    font-weight: 900;
+    font-family: "app";
+    text-align: start;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.text-center{
+    margin: 2% 10% 1% 10%;
+}
+
+.backboard {
+    display: inline-block;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    left: 10%;
+    top: 60%;
+    color: black;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #fff inset;
+    background-color: rgba(255,255,255,0.50 );
+}
+
+.riku img{
+    position: absolute;
+    height:100%;
+    width:40%;
+    margin-left:25%;
+    }
+
+
+/* TextAnimation */
+.anim-typewriter-1 {
+    animation: typewriter 5s steps(44) 2s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+    animation-delay: 1s;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+}
+.dismiss1 {
+    animation: gradationTest 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+}
+.anim-typewriter-2 {
+    animation: typewriter 5s steps(44) 2s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+    animation-delay: 5s;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+.dismiss2 {
+    animation: gradationTest 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+}
+
+
+.anim-typewriter-3 {
+    animation: typewriter 5s steps(44) 2s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+    animation-delay: 9s;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+}
+
+
+
+
+.appear{
+    display: inline;
+    color: transparent;
+    animation: gradationTest2;
+    animation-fill-mode: forwards;
+    animation-delay: 15s;
+    font-weight: 900;
+    position: absolute;
+    top: 78%;
+    left: 45%;
+}
+
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+
+@keyframes gradationTest {
+    from{ color: black; }
+    to{ color: transparent; }
+}
+
+@keyframes gradationTest2{
+    from{ 
+        color: transparent;
+    }
+    to{ 
+        font-size: 30px;
+        color: black;
+        position: absolute;
+        /*top: 75%;*/
+        /*left: 40%;*/
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    body::before{
+    background: url("/images/viber image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-color:black;
+}
+    
+  p{
+    font-size: 13px;
+    font-weight: 900;
+    font-family: "app";
+    text-align: start;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.text-center{
+    margin: 2% 10% 1% 10%;
+}  
+
+.riku img{
+    position: absolute;
+    height:100%;
+    width:40%;
+    margin-left:25%;
+    }
+
+.appear{
+    display: inline;
+    color: transparent;
+    animation: gradationTest2;
+    animation-fill-mode: forwards;
+    animation-delay: 15s;
+    font-weight: 900;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    font-size:20px;
+}
+
+
+}
