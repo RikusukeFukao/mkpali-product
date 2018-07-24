@@ -52,26 +52,24 @@ overflow-x:hidden;
 
 @media only screen and (max-width: 750px) {
 
-body {
-background-color: #f0f0f0;
-background-image: url(../images/water1.pdf-min2.jpg);
-color: #000000;
-background-repeat: no-repeat;
-background-size: auto auto;
-height: 100%;
-width: 100%;
+body::before{
+    background: url("/images/viber image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-color:black;
 }
 
 .ore img{
-    margin-top:-10%;
+   
     height: 45%;
-    width: 65%;
+    width: 50%;
     z-index:30;
 }
 
 .rikuzo img{
-    height: 60%;
-    width: 60%;
-    margin-top:18%;
+    height: 100%;
+    width: 50%;
 }
 }

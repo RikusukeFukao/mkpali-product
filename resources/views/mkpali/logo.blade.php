@@ -8,7 +8,7 @@
           <a href=logo.blade.php><img src="../images/ore.png"></a>
     </div>
     <div class="rikuzo">
-        <a href=logo.blade.php><img src="../images/riku-logo.jpg"></a>
+        <a href=logo.blade.php><img src="../images/riku-smile.jpg"></a>
     </div>
 
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js" charset="UTF-8"></script>
@@ -27,7 +27,7 @@
   }// end function
   
   $(function() {
-    countdown('window.location.replace("welcome")', 300);
+    countdown('window.location.replace("welcome")', 3);
   });
   
   </script>
