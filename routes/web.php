@@ -26,3 +26,5 @@ Route::get('result3', 'MkpaliController@result3')->name('result3.get');
 
 Route::get('ng', 'MkpaliController@ng')->name('ng.get');
 
+Route::get('ittekoi', 'MkpaliController@ittekoi')->name('ittekoi.get');
+
