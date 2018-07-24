@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+
+
+@font-face {
+font-family: "GenEi";
+src: url('font/0718GenEi.eot');
+src: url('font/0718GenEi.woff') format('woff');
+}
+
+@font-face {
+font-family: "Chikara";
+src: url('font/0720Chikara.eot');
+src: url('font/0720Chikara.woff') format('woff')
+}
+
+@font-face {
+font-family: "Tetsubin";
+src: url('font/tetsubin.orf');
+src: url('font/tetsubin.woff') format('woff')
+}
+
+body {
+    background-color: black;
+    background-image: url("../images/nampa-background.jpg");
+    font-family: 'Yu Gothic';
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/*りくぞう写真*/
+.rikuzou img {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    height: 550px;
+    width: 550px;
+    z-index: 20;
+}
+
+/*よくやったテキスト*/
+.yokuyatta {
+    position: absolute;
+    font-size:700%;
+    left: 45%;
+    top: 15%;
+    text-align: left;
+    transform: rotate(-10deg);
+    font-weight: 900;
+    z-index: 10;
+    color: #fff;
+    text-shadow: 0 0 15px #FF6694;
+    font-family: 'Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4', sans-serif;
+   
+}
+
+
+/*指示書*/
+    .content {
+      /*font-family: 'Nixie One', cursive;*/
+     font-size: 300%;
+     width: 50%;
+     font-weight: 900;
+        
+    position: relative;
+    background: #F7F9CC;
+    color:#DC143C;
+     text-align: center;
+     padding: 1em 2em; /* Adjust to suit */
+     margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the content 'graphics' take up 24px themselves so we double it. */
+     width: 30%;
+    }
+    .content:before, .content:after {
+     content: "";
+     position: absolute;
+     display: block;
+     bottom: -1em;
+     border: 1.5em solid #F7F9CC;
+     z-index: -1;
+    }
+    .content:before {
+     left: -2em;
+     border-right-width: 1.5em;
+     border-left-color: transparent;
+    }
+    .content:after {
+     right: -2em;
+     border-left-width: 1.5em;
+     border-right-color: transparent;
+    }
+    .content-content:before, .content-content:after {
+     content: "";
+     position: absolute;
+     display: block;
+     border-style: solid;
+     border-color: #FFFF66	 transparent transparent transparent;
+     bottom: -1em;
+    }
+    .content-content:before {
+     left: 0;
+     border-width: 1em 0 0 1em;
+    }
+    .content-content:after {
+     right: 0;
+     border-width: 1em 1em 0 0;
+    }
+                
+
+/*コンテンツの背景*/
+#wrap{
+    background:linear-gradient(180deg,#FFFFCC 0%,#FFFFCC 3%,white 5%,white 100%);
+    /*background-color:white;*/
+    /*opacity:0.7;*/
+    margin-top: 55%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    border-radius: 1em;
+    height: 100%;
+    padding-bottom: 25%;
+    padding-top: 0.5%;
+   background: #FEA993;
+   border: 5px dashed #F7F9CC;
+   border-radius: 10px;
+   box-shadow: 0 0 0 7px #FEA993;
+   
+   opacity: 0.8;
+}
+
+
+
+.heart1{
+   animation: pounding .5s linear infinite alternate;
+   font-size: 800%;
+   color:red;
+}
+ 
+@keyframes pounding{
+  0%{ transform: scale(1.5); }
+  100%{ transform: scale(1); }
+}
+
+.iikoto{
+    font-size:250%;
+    font-weight: 900;
+    color: white;
+    margin-top:10%;
+}
+
+.iikoto-contents{
+    margin-top: 8%;
+    margin-bottom: 15%;
+    font-size: 150%;
+    font-weight: 900;
+    color: white;
+    line-height: 250%;
+}
+
+.merit{
+    font-size:200%;
+    font-weight: 900;
+    color: white;
+    margin-top:5%;
+}
+
+.merit-contents{
+    margin-top: 1%;
+    margin-bottom: 15%;
+    font-size: 150%;
+    font-weight: 900;
+    color: white;
+    line-height: 250%;
+}
+
+.merit-crimson{
+    font-size:200%;
+    font-weight: 900;
+    color: #DC143C;
+    margin-top:5%;
+}
+
+.map img {
+    position: relative;
+    width: 30%;
+    left:10%;
+    margin: 3%;
+    float: left;
+}
+
+.spotinfo{
+    font-size: 180%;
+    transform: rotate(-10deg);
+    font-weight: 900;
+    margin-left: 10%;
+    margin-top: 5%;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}

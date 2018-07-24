@@ -4,7 +4,7 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="{{ secure_asset('css/result.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/result1.css') }}">
     </head>
 
 <body>
@@ -43,6 +43,20 @@
         <p style="margin-top:2em;">とりあえずセンター街へ行くんだ。<br>
                 ギャルに紛れてテンション上げよう！！！</p>
     </div>
+
+
+
+<div id="map" style="width:400px; height:300px; color:black"/></div>
+    
+            <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
+            <script type="text/javascript">
+            window.onload = function(){
+            var ymap = new Y.Map("map");
+            ymap.drawMap(new Y.LatLng(35.610491, 139.630173), 17, Y.LayerSetId.NORMAL);
+            var label = new Y.Label(new Y.LatLng(35.610491, 139.630173), "楽天クリムゾンハウス");
+            ymap.addFeature(label);
+    };
+            </script>
   
     <div id="map" style="width:400px; height:300px"></div>
 
@@ -62,8 +76,5 @@
           </div>
 
 <body>
-    
-</html>
-    
 
 @endsection
