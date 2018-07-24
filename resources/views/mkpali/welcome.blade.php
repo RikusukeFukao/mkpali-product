@@ -33,6 +33,4 @@
 @endsection
 
 
-    <a href="show1" class="yesbtn appear">》START</a>
-@endsection
-
+   
