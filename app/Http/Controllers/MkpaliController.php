@@ -114,6 +114,14 @@ class MkpaliController extends Controller
     }
     
     
+    public function result8()
+    {
+        
+        return view('mkpali.result8');
+        
+    }
+    
+    
     public function ng()
     {
         
