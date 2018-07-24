@@ -7,7 +7,7 @@
 <a href="show1" class="skipbtn appear2">》SKIP</a>
 
 <div class="riku">
-   <img src="../images/riku-smile2.jpg">
+   <img src="../images/riku-welcomewelcome.jpg">
 </div>
 
 <div class="backboard">
@@ -27,3 +27,4 @@
 </div>    
     <a href="show1" class="yesbtn appear">》START</a>
 @endsection
+
