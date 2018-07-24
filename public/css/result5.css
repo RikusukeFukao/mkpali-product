@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+@font-face {
+font-family: "GenEi";
+src: url('font/0718GenEi.eot');
+src: url('font/0718GenEi.woff') format('woff');
+}
+
+@font-face {
+font-family: "Chikara";
+src: url('font/0719Chikara.eot');
+src: url('font/0719Chikara.woff') format('woff')
+}
+
+body {
+    background-image: url("../images/shishaback.jpg");
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*りくぞう写真*/
+.rikuzou img {
+    position: absolute;
+    bottom: 0%;
+    left: 30%;
+    height: 550px;
+    width: 550px;
+    z-index: 20;
+}
+
+.shisha img {
+    margin-bottom: 3%;
+    height: 44%;
+    width: 60%;
+}
+
+.declare {
+    color: white;
+    position: absolute;
+    font-size:700%;
+    left: 27%;
+    top: 0%;
+    font-weight: 900;
+    z-index: 10;
+    font-family: 'Chikara';
+}
+
+/*指示書*/
+.content {
+    margin-top: 5%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 500%;
+    font-family: 'MS UI Gothic',sans-serif;
+    color: #FEF7E7;
+    width: 50%;
+}
+
+
+#wrap{
+    background:linear-gradient(180deg,#2F7865 0%,#F5B443 50%,#E62B34 100%);
+    margin-top: 55%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    border-radius: 1em;
+    padding-bottom: 3%;
+    opacity: 0.95;
+}
+
+
+.part1{
+    margin: 0 auto;
+    width:80%; height:300%;
+    color: #FEF7E7;
+    text-align: center;
+    padding-top: 10px;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    margin-bottom: 5%; 
+}
+
+.part2{
+    margin: 0 auto;
+    width:80%; height:300%;
+    color: #FEF7E7;
+    text-align: center;
+    padding-top: 10px;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    margin-bottom: 5%;
+}
+
+.part3{
+    margin: 0 auto;
+    width:80%; height:300%;
+    color: #FEF7E7;
+    text-align: center;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    margin-bottom: 5%;
+}
+
+.part4{
+    margin: 0 auto;
+    width:80%; height:300%;
+    color: #FEF7E7;
+    text-align: center;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    margin-bottom: 5%;
+}
+
+h3 {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #FEF7E7;
+    width: 300px;
+    height: 80px;
+    line-height: 250%;
+    border: double 10px #FEF7E7;
+    border-radius: 50%;
+    vertical-align: middle;
+    overflow: hidden;
+    margin-bottom: 5%;
+    font-weight: 900;
+}
+
+h3:hover{
+    transition: 1s;
+    transform: rotateY(360deg);
+}
+
+p.ellipse {
+    font-size: 23px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #FEF7E7;
+    margin-top: 30px;
+    margin-bottom: 5%;
+    width: 450px;
+    height: 80px;
+    line-height: 280%;
+    border: double 10px #FEF7E7;
+    border-radius: 50%;
+    vertical-align: middle;
+    overflow: hidden;
+    font-weight: 900;
+}
+
+.ellipse:hover {
+    transition: 1s;
+    transform: rotateY(360deg);
+}
+
+p {
+    font-size: 150%;
+    font-weight: 400;
+}
+p.margin-bottom {
+    margin-bottom: 3%;
+}
+
+#map {
+    position: relative;
+    left: 24%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}

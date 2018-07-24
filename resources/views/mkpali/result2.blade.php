@@ -24,10 +24,33 @@
         
         
     <div id="wrap">
+
         <!--指示書-->
-        <div class="content">
-            <p>指示書<p>
-        </div>    
+        <!--<div class="content">-->
+        <!--    <p>指示書<p>-->
+        <!--</div> -->
+        
+    <!--Instructionのエフェクトかけてみたコード-->
+            <svg viewBox="0 0 960 300">
+            <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">Instruction</text>
+            </symbol>
+            
+            <g class = "g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+            </svg>
+    
+    
+
+        
+        
+        
+        
         
         <!--パチンコスロットの流れ-->
         <div id="introduction">
@@ -39,7 +62,7 @@
                 ①お金を入れる<br>
                 ②プレイする<br>
                 大当たりが出るまで①、②の繰り返し。<br>
-                超EASYね！
+                超EASY！
                 </p>
         </div>
        
@@ -103,6 +126,7 @@
         <section>
             <div class=rikuzolucky>
                 <img src="../images/positive.png" alt="positive" height="200" width="300" />
+
             </div>
             
             <div class= "lucky">
@@ -129,15 +153,15 @@
             ✍エスパス日拓溝の口店
         </div>       
             
-        <div id="map1" style="width:400px; height:300px"></div>
+       <div id="map3" style="width:400px; height:300px"></div>
 
-            <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
-            <script type="text/javascript">
-            window.onload = function(){
-            var ymap = new Y.Map("map");
-            ymap.drawMap(new Y.LatLng(35.600638, 139.611358), 17, Y.LayerSetId.NORMAL);
-    };
-            </script>
+        <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
+        <script type="text/javascript">
+        window.onload = function(){
+        var ymap = new Y.Map("map");
+        ymap.drawMap(new Y.LatLng(35.637389, 139.419970), 17, Y.LayerSetId.NORMAL);
+};
+        </script>
         
         <div class="shopinfo">
             個人的に相性がいいお店だ！Aタイプのスロットがおすすめ！
