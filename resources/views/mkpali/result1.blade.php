@@ -4,7 +4,7 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="{{ secure_asset('css/result.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/result1.css') }}">
     </head>
 
 <body>
@@ -43,32 +43,38 @@
         <p style="margin-top:2em;">とりあえずセンター街へ行くんだ。<br>
                 ギャルに紛れてテンション上げよう！！！</p>
     </div>
-  <font color="black">
+
+
+
+<div id="map" style="width:400px; height:300px; color:black"/></div>
+    
+            <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
+            <script type="text/javascript">
+            window.onload = function(){
+            var ymap = new Y.Map("map");
+            ymap.drawMap(new Y.LatLng(35.610491, 139.630173), 17, Y.LayerSetId.NORMAL);
+            var label = new Y.Label(new Y.LatLng(35.610491, 139.630173), "楽天クリムゾンハウス");
+            ymap.addFeature(label);
+    };
+            </script>
+  
     <div id="map" style="width:400px; height:300px"></div>
 
         <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
         <script type="text/javascript">
         window.onload = function(){
         var ymap = new Y.Map("map");
-        ymap.drawMap(new Y.LatLng(35.64997652994234,139.72116702175174), 17, Y.LayerSetId.NORMAL);
-        var label = new Y.Label(new Y.LatLng(35.64997652994234,139.72116702175174), "死ね<br>溝の口");
-        ymap.addFeature(label)
-        }
+        ymap.drawMap(new Y.LatLng(36.66572, 139.73100), 17, Y.LayerSetId.NORMAL);
+};
         </script>
     </div>
-     <div id="map2" style="width:400px; height:300px"></div>
 
-        <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
-        <script type="text/javascript">
-        window.onload = function(){
-        var ymap = new Y.Map("map");
-        ymap.drawMap(new Y.LatLng(35.64997652994234,139.72116702175174), 17, Y.LayerSetId.NORMAL);
-        var label = new Y.Label(new Y.LatLng(35.64997652994234,139.72116702175174), "死ね<br>溝の口");
-        ymap.addFeature(label)
-        }
-        </script>
-    </div>
-  </font>    
+最後までほんとに読んだか？
+          <div class="ittekoibtn">
+          <a href="ittekoi" class="btn btn-lg animated-button thar-three">YES</a>
+          <!--{!! link_to_route('ittekoi.get', '》YES', null, ['class' => 'btn btn-lg btn-default']) !!}-->
+          </div>
+
 <body>
 
 @endsection
