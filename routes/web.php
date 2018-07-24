@@ -29,6 +29,7 @@ Route::get('result5', 'MkpaliController@result5')->name('result5.get');
 Route::get('result6', 'MkpaliController@result6')->name('result6.get');
 Route::get('result7', 'MkpaliController@result7')->name('result7.get');
 Route::get('result8', 'MkpaliController@result8')->name('result8.get');
+Route::get('result9', 'MkpaliController@result9')->name('result9.get');
 
 Route::get('ng', 'MkpaliController@ng')->name('ng.get');
 

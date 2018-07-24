@@ -4,41 +4,64 @@
       <div class="show"> 
         <div class="text-center">
           <?php
-          $r = rand(0, 2);
-          if ($r == 0) {
-          ?>
+          $r = rand(0, 8);
+          if ($r == 0) { ?>
             
-          <h1>一人でプリクラ、とってこい！</h1>
-          <h2>レベル<br>★★★☆☆</h2>  
-          <div class="yesbtn">
-          <a href="result1" class="btn btn-sm animated-button thar-three">俺がやる!</a>
-          <!--{!! link_to_route('result1.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}-->
-          </div>
+          <h1>一人でプリクラ、撮ってこい！</h1>
+          <a href="result1" class="yesbtn">俺がやる!</a>
+          
           
           <?php }elseif ($r == 1){ ?>
           
-          <h1>一人でプリクラ、とってこい！</h1>
-          <h2>レベル<br>★★★☆☆</h2>  
-          <div class="yesbtn">
-          <a href="result1" class="btn btn-sm animated-button thar-three">俺がやる!</a>
-          <!--{!! link_to_route('result2.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}-->
-          </div>
+          <h1>今すぐパチンコ、打ってこい！</h1>
+          <a href="result2" class="yesbtn">俺がやる!</a>
+          
           
           <?php }elseif ($r == 2){ ?>
           
-          <h1>一人でプリクラ、とってこい！</h1>
-          <h2>レベル<br>★★★☆☆</h2>  
-          <div class="yesbtn">
-          <a href="result1" class="btn btn-sm animated-button thar-three">俺がやる!</a>
-          <!--{!! link_to_route('result3.get', '》俺がやる!', null, ['class' => 'btn btn-lg btn-primary']) !!}-->
-          </div>
-  
+          <h1>裁判傍聴してこいや！</h1>
+          <a href="result3" class="yesbtn">俺がやる!</a>
+          
+          
+          <?php }elseif ($r == 3){ ?>
+          
+          <h1ダーツの旅、行ってこいや！！</h1>
+          <a href="result4" class="yesbtn">俺がやる!</a>
+          
+          
+          <?php }elseif ($r == 4){ ?>
+          
+          <h1>シーシャ家で作ってみろや！</h1>
+          <a href="result5" class="yesbtn">俺がやる!</a>
+          
+          
+          <?php }elseif ($r == 5){ ?>
+          
+          <h1>ナンパ行け！ナンパ！</h1>
+          <a href="result6" class="yesbtn">俺がやる!</a>
+          
+          
+          <?php }elseif ($r == 6){ ?>
+          
+          <h1>ガラッと髪型変えてこい！</h1>
+          <a href="result7" class="yesbtn">俺がやる!</a>
+          
+          
+          <?php }elseif ($r == 7){ ?>
+          
+          <h1>自画像描いて、みませんか？</h1>
+          <a href="result8" class="yesbtn">俺がやる!</a>
+          
+          
+          <?php }elseif ($r == 8){ ?>
+          
+          <h1>デモ、参加してみろや！</h1>
+          <a href="result9" class="yesbtn">俺がやる!</a>
+          
+          
           <?php } ?>
           
-          <div class="nobtn">
-          <!--<a href="show2" class="btn btn-sm animated-button thar-two">-->
-          {!! link_to_route('show2.get', '》仕方ねえ、譲るわ…!', null, ['class' => 'btn btn-lg btn-default']) !!}
-          </div>  
+          <a href="show2" class="nobtn">仕方ねえ、譲るわ…!</a>
         </div>
         
         <head>
@@ -57,7 +80,7 @@
           }
         }// end function
         $(function() {
-          countdown('window.location.replace("ng")', 10);
+          countdown('window.location.replace("ng")', 5);
         });
         
         </script>
@@ -70,5 +93,6 @@
             <span id="count"></span>
           </div>
         </body>
+        
       </div>
 @endsection
