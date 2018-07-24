@@ -10,7 +10,6 @@
    <img src="../images/riku-welcome.jpg">
 </div>
 
-
 <div class="backboard">
     <div class="dismiss1"><p class="anim-typewriter-1">この画面を見ているそこの君！</p></div>
     <div class="dismiss2"><p class="anim-typewriter-2">さぁ、「非日常」の世界に出発しよう！</p></div>
