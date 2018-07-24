@@ -8,7 +8,7 @@
 
 <body>
     <div class="rikuzou">
-        <img src="./images/syuuzou.gif" alt="りくぞう">
+        <img src="./images/gattu.png" alt="りくぞう">
     </div>       
           
     <!--最初のコメント -->
@@ -62,6 +62,10 @@
             <h3>最強の特殊ヘアを実現！CLIPJOINTGOD！！</h3>
                 <p>
                     できる髪型...<span id="thick">レインボー、スイカ</span>など<br>
+                    
+                   <img src="./images/ahuroo.png" alt="りくぞう">   
+                     <img src="./images/suika copy.png" alt="りくぞう">
+                    
                     ＪＲ山手線巣鴨駅徒歩4分<br>
                     都営三田線巣鴨駅徒歩2分<br>
                 </p>
@@ -84,6 +88,10 @@
             <h3>ポップでキュートな美容室！VIVA☆CUTE CANDY！！</h3>
                 <p>
                     できる髪型...<span id="thick">レオパード柄、あほ毛ハート</span>など<br>
+                   
+                     <img src="./images/hyou.png" alt="りくぞう">
+                     <img src="./images/ha-to.png" alt="りくぞう">
+                   
                     下北沢駅徒歩３０秒<br>
                 </p>
             
