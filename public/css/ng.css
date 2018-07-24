@@ -231,22 +231,30 @@ span:nth-child(even){
 }
 
 .btn-default:hover {
-    font-family: "ＭＳ 明朝",serif;
-    display: inline-block;
-    background-color: rgba(255, 255, 255, .2);
+   font-family: "ＭＳ 明朝",serif;
+    display: block;
     font-size: 100%;
     font-weight: bold;
+    margin-top:-20%;
+    margin-left:-30%;;
+    position: relative;
+    background-color: rgba(255, 255, 255, .2);
     border-color: black;
     border-width: 2px;
 }
 
 .btn-default:focus {
     font-family: "ＭＳ 明朝",serif;
-    display: inline-block;
-    border-width: 5px;
+    display: block;
     font-size: 100%;
     font-weight: bold;
-    background-color: rgba(255, 255, 255, .2)
+    margin-top:-20%;
+    margin-left:-30%;;
+    position: relative;
+    background-color: rgba(255, 255, 255, .2);
+    border-color: black;
+    border-width: 2px;
+
 }
 
 .btn-primary{
@@ -265,33 +273,47 @@ span:nth-child(even){
 }
 
 .btn-primary:hover {
-    font-family: "ＭＳ 明朝",serif;
-    display: inline-block;
+   font-family: "ＭＳ 明朝",serif;
+    display: block;
     font-size: 100%;
     font-weight: bold;
+    width: 110%;
+    margin-top:20%;
+    position: relative;
     color: black;
+    border-color: white;
     background-color: rgba(255, 255, 255, .2);
     border-color: black;
     border-width: 2px;
 }
 
 .btn-primary:active {
-    font-family: "ＭＳ 明朝",serif;
-    display: inline-block;
+      font-family: "ＭＳ 明朝",serif;
+    display: block;
     font-size: 100%;
     font-weight: bold;
+    width: 110%;
+    margin-top:20%;
+    position: relative;
     color: black;
+    border-color: white;
     background-color: rgba(255, 255, 255, .2);
+    border-color: black;
     border-width: 2px;
 }
 
 .btn-primary:focus {
-    font-family: "ＭＳ 明朝",serif;
-    display: inline-block;
+     font-family: "ＭＳ 明朝",serif;
+    display: block;
     font-size: 100%;
     font-weight: bold;
+    width: 110%;
+    margin-top:20%;
+    position: relative;
     color: black;
+    border-color: white;
     background-color: rgba(255, 255, 255, .2);
+    border-color: black;
     border-width: 2px;
 }
 
