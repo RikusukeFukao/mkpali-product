@@ -55,13 +55,6 @@ class MkpaliController extends Controller
     }
     
    
-    public function show6()
-    {
-        
-        return view('mkpali.show6');
-        
-      
-    
     
     public function result1()
     {
@@ -118,6 +111,13 @@ class MkpaliController extends Controller
     
     }
     
+    
+    public function result8()
+    {
+        
+        return view('mkpali.result8');
+        
+    }
     
     public function result8()
     {
