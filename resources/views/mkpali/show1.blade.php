@@ -17,7 +17,7 @@
           
           <?php }elseif ($r == 1){ ?>
           
-          <h1>一人でプリクラ、とってこい!</h1>
+          <h1>一人でプリクラ、とってこい！</h1>
           <h2>レベル<br>★★★☆☆</h2>  
           <div class="yesbtn">
           <a href="result1" class="btn btn-sm animated-button thar-three">俺がやる!</a>
@@ -26,7 +26,7 @@
           
           <?php }elseif ($r == 2){ ?>
           
-          <h1>一人でプリクラ、とってこい!</h1>
+          <h1>一人でプリクラ、とってこい！</h1>
           <h2>レベル<br>★★★☆☆</h2>  
           <div class="yesbtn">
           <a href="result1" class="btn btn-sm animated-button thar-three">俺がやる!</a>
