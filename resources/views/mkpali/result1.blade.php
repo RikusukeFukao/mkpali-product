@@ -112,6 +112,8 @@
     <!--wrapのdiv-->
     </div>
     </body>
+    
+</html>
 
 
 @endsection
