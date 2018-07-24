@@ -118,18 +118,6 @@ body {
             @keyframes stroke-offset{
             100% {stroke-dashoffset: -35%;}
             }
-
-
-
-
-
-
-
-
-
-
-
-/*指示書*/
 /*.content {*/
 /*    margin-top: 5%;*/
 /*    position: relative;*/
@@ -366,6 +354,7 @@ font-family: 'Yu Gothic'
 .shop{
     font-weight: 900;
     font-family: 'Yu Gothic';
+
     margin-top: 8%;
     font-size: 250%;
 }

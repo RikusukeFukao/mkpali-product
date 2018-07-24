@@ -16,6 +16,7 @@ Route::get('/', 'MkpaliController@logo');
 Route::get('welcome', 'MkpaliController@welcome')->name('welcome.get');
 
 
+
 Route::get('show1', 'MkpaliController@show1')->name('show1.get');
 Route::get('show2', 'MkpaliController@show2')->name('show2.get');
 Route::get('show3', 'MkpaliController@show3')->name('show3.get');
@@ -27,6 +28,7 @@ Route::get('result2', 'MkpaliController@result2')->name('result2.get');
 Route::get('result3', 'MkpaliController@result3')->name('result3.get');
 Route::get('result4', 'MkpaliController@result4')->name('result4.get');
 Route::get('result6', 'MkpaliController@result6')->name('result6.get');
+
 
 Route::get('ng', 'MkpaliController@ng')->name('ng.get');
 

@@ -24,10 +24,7 @@
         
         
     <div id="wrap">
-        
-        
-        
-        
+
         <!--指示書-->
         <!--<div class="content">-->
         <!--    <p>指示書<p>-->
@@ -129,6 +126,7 @@
         <section>
             <div class=rikuzolucky>
                 <img src="../images/positive.png" alt="positive" height="200" width="300" />
+
             </div>
             
             <div class= "lucky">

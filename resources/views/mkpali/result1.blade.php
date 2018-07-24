@@ -4,7 +4,7 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="{{ secure_asset('css/result.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/result1.css') }}">
     </head>
 
 <body>
@@ -57,9 +57,7 @@
             ymap.addFeature(label);
     };
             </script>
+  
 <body>
-    
-</html>
-    
 
 @endsection
