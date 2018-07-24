@@ -7,7 +7,7 @@
 <a href="show1" class="skipbtn appear2">》SKIP</a>
 
 <div class="riku">
-   <img src="../images/riku-smile2.jpg">
+   <img src="../images/riku-welcome.jpg">
 </div>
 
 <div class="backboard">
@@ -25,14 +25,6 @@
     <div class="dismiss12"><p class="anim-typewriter-12">すべては君にかかっている！！！</p></div>
     <div class="dismiss13"><p class="anim-typewriter-13">さぁ！！俺についてこい！！！</p></div>
 </div>    
-
-    </font>
-    
-    <a href="show1" class="yesbtn appear">》START</a>    
-    
-@endsection
-
-
     <a href="show1" class="yesbtn appear">》START</a>
 @endsection
 
