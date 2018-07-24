@@ -60,7 +60,7 @@
     
      <section>
         <div class="merit1">
-            <p>1. 独立心・チャレンジ精神が養われる</p  >        
+            <p>1. 独立心・チャレンジ精神が養われる</p>        
         </div>
         
         <div class="merit1content">

@@ -26,30 +26,30 @@ body {
 .rikuzou img {
     position: absolute;
     bottom: 0%;
-    left: 0%;
-    height: 550px;
-    width: 550px;
+    left: 9%;
+    height: 700px;
+    width: 700px;
     z-index: 20;
 }
 
 .declare1 {
-    color: #0C40AE;
+    color: red;
     text-shadow: 5px 5px white;
     position: absolute;
     font-size:700%;
-    right: 10%;
+    right: 30%;
     top: 50%;
     font-weight: 900;
-    z-index: 10;
+    z-index: 30;
     font-family: 'Chikara';
 }
 
 .declare2 {
-    color: #0C40AE;
+    color: red;
     text-shadow: 5px 5px white;
     position: absolute;
     font-size:700%;
-    right: 0%;
+    right: 10%;
     top: 70%;
     font-weight: 900;
     z-index: 30;
@@ -186,3 +186,26 @@ span {
     margin-bottom: 5%;
     margin-top: 2%;
 }
+
+
+
+
+.niji img {
+
+    left: 0%;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    
+}
+
+
+
+.hyou img {
+    left: 0%;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    
+}
+
