@@ -10,7 +10,7 @@
 
     <body>
         <div class="rikuzou">
-            <img src="./images/puri-top.jpg" alt="りくぞう">
+            <img src="./images/banzai.png" alt="りくぞう">
         </div>       
         
         <div class="font">      
