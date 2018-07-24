@@ -129,11 +129,11 @@ class MkpaliController extends Controller
         
     }
     
-    public function ittekoi()
+    public function ittekoi1()
     
     {
         
-        return view('mkpali.ittekoi');
+        return view('mkpali.ittekoi1');
     
         
     }

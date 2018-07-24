@@ -35,5 +35,5 @@ Route::get('result8', 'MkpaliController@result8')->name('result8.get');
 
 Route::get('ng', 'MkpaliController@ng')->name('ng.get');
 
-Route::get('ittekoi', 'MkpaliController@ittekoi')->name('ittekoi.get');
+Route::get('ittekoi1', 'MkpaliController@ittekoi1')->name('ittekoi1.get');
 
