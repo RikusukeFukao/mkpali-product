@@ -8,7 +8,7 @@
           <a href=logo.blade.php><img src="../images/ore.png"></a>
     </div>
     <div class="rikuzo">
-        <a href=logo.blade.php><img src="../images/riku-smile.jpg"></a>
+        <a href=logo.blade.php><img src="../images/smile.png"></a>
     </div>
 
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js" charset="UTF-8"></script>
