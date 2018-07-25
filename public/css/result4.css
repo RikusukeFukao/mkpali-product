@@ -220,3 +220,230 @@ body {
     font-style: underline;
     color: black;
 }
+
+
+@media only screen and (max-width: 750px) {
+
+
+body {
+    background-color: black;
+    background-image: url("../images/japanmap.jpg");
+    color: black;
+    font-family: 'Uemaru';
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*りくぞう写真*/
+.rikuzou img {
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    height: 300px;
+    width: 380px;
+    z-index: 10;
+}
+
+/*よくやったテキスト*/
+.yokuyatta {
+    position: absolute;
+    font-size:300%;
+    left: 10%;
+    top: 40%;
+    font-weight: 900;
+    z-index: 20;
+    color: black;
+    /*background-color: #888888;*/
+}
+
+/*指示書 文字*/
+.content {
+    position: relative;
+    color: #158b2b;
+    font-size: 100;
+    padding: 3%;
+    padding-top: 3%;
+    text-align: center;
+    margin: 1.5em 0;
+    margin-top: 10%;
+    font-weight: 400;
+    font-family: 'Uemaru';
+    }
+
+/*指示書の囲い*/
+.content:before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    border: 10px solid #a6ddb0;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    }
+    
+    
+
+/*コンテンツの背景*/
+#wrap{
+    background:linear-gradient(180deg,#FFFFCC 0%,#FFFFCC 3%,white 5%,white 100%);
+    background-color:white;
+    /*opacity:0.7;*/
+    margin-top: 55%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    border-radius: 1em;
+    height: 100%;
+    padding-bottom: 5%;
+    padding-top: 0.5%;
+}
+
+.yarikata{
+    font-size: 100%;
+    font-weight: 900;
+    line-height: 300%;
+    margin-top: 0%;
+}
+
+.nami img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:10%;
+    margin-right:100%;
+    width:80%;
+
+}
+
+.introduction{
+    font-size: 100%;
+    font-weight: 900;
+    line-height: 300%;
+}
+
+/*ダーツの旅のメリット*/
+.merit{
+    font-size: 160%;
+    font-weight: 900;
+    background: linear-gradient(transparent 30%, #ffff66 70%);
+    width: 45%;
+    display: inline-block;
+}
+
+/*１、独立心＆チャレンジ精神*/
+.merit1{
+    border: 5px solid black;
+    border-radius: 4px;
+    margin: 0 auto;
+    /*padding: 0em;*/
+    /*padding-left: 4em;*/
+    /*padding-right: 4em;*/
+    padding-top:1em;
+    position: relative;
+    width: 80%; 
+    color: black;
+    margin-top: 100px;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    border-radius: 1em;
+}
+
+
+    
+.merit1::before {
+    background-color: #fff;
+    color: black;
+    content: "01";
+    font-size: 250%;
+    left: 40%;
+    font-weight: 900;
+    padding: 0 .5em;
+    position: absolute;
+    top: -1em;
+}
+
+
+
+.merit1 p {
+    font-size: 120%;
+    color: black;
+    font-weight: 600;
+    line-height: 250%;
+}
+
+.merit1content{
+    font-size: 100%;
+    color: black;
+    line-height: 250%;
+    font-weight: 900;
+    margin-top: 10%;
+}
+
+/*２、新しい出会い*/
+.merit2{
+    border: 5px solid black;
+    border-radius: 4px;
+    margin: 0 auto;
+    /*padding: 0em;*/
+    /*padding-left: 4em;*/
+    /*padding-right: 4em;*/
+    padding-top:1em;
+    position: relative;
+    width: 50%; 
+    color: black;
+    margin-top: 100px;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    border-radius: 1em;
+}
+    
+.merit2::before {
+    background-color: #fff;
+    color: black;
+    content: "02";
+    font-size: 250%;
+    left: 34%;
+    font-weight: 900;
+    padding: 0 .5em;
+    position: absolute;
+    top: -1em;
+}
+
+.merit2 p {
+    font-size: 120%;
+    color: black;
+    line-height: 250%;
+    font-weight: 600;
+    
+}
+
+.merit2content{
+    font-size: 100%;
+    color: black;
+    line-height: 250%;
+    font-weight: 900;
+    margin-top: 10%;
+}
+
+
+.ittekoibtn {
+    margin-top: 20%;
+    font-size: 90%;
+    font-weight: 900;
+}
+
+.btn { 
+    font-size: 150%;
+    font-style: underline;
+    color: black;
+}
+
+
+}
