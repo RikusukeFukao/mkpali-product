@@ -8,7 +8,7 @@
 
 <body>
     <div class="rikuzou">
-        <img src="./images/syuuzou.gif" alt="りくぞう">
+        <img src="./images/yatta.png" alt="りくぞう">
     </div>       
           
     <!--最初のコメント -->
@@ -137,6 +137,11 @@
             <p>
                ここでの過激な行動は捕まる恐れがあるので気を付けて！！ 
             </p>
+        </div>
+        
+        <div class="ittekoibtn">
+              最後までほんとに読んだか？<br>
+          <a href="ittekoi9" class="btn">》YES</a>
         </div>
         
         <div class="zorozoro">

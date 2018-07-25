@@ -1,16 +1,12 @@
 @charset "utf-8";
 
 @font-face {
-font-family: "GenEi";
-src: url('font/0718GenEi.eot');
-src: url('font/0718GenEi.woff') format('woff');
+font-family: "result9";
+src: url('font/result9.otf');
+src: url('font/result9.woff') format('woff');
 }
 
-@font-face {
-font-family: "Chikara";
-src: url('font/0719Chikara.eot');
-src: url('font/0719Chikara.woff') format('woff')
-}
+
 
 body {
     background-image: url("../images/demoback.jpg");
@@ -20,6 +16,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: "result9"
 }
 
 /*りくぞう写真*/
@@ -27,31 +24,33 @@ body {
     position: absolute;
     bottom: 0%;
     left: 0%;
-    height: 550px;
-    width: 550px;
+    height: 800px;
+    width: 800px;
     z-index: 20;
 }
 
 .declare1 {
     color: black;
     position: absolute;
-    font-size:600%;
-    left: 27%;
-    top: 60%;
+    font-size: 550%;
+    left: 10%;
+    top: 40%;
     font-weight: 900;
     z-index: 30;
-    font-family: 'Chikara';
+    background: linear-gradient(transparent 30%, #FFD700 70%);
+    font-family: "result9"
 }
 
 .declare2 {
     color: black;
     position: absolute;
-    font-size:540%;
-    left: 27%;
-    top: 80%;
+    font-size: 600%;
+    left: 10%;
+    top: 60%;
     font-weight: 900;
     z-index: 30;
-    font-family: 'Chikara';
+    background: linear-gradient(transparent 30%, #FFD700 70%);
+    font-family: "result9"
 }
 
 #wrap{
@@ -191,7 +190,7 @@ p {
     position: relative;
     width: 60%; 
     color: black;
-    font-family: YuGothic,'Yu Gothic',sans-serif;
+    font-family: "result9";
     border-radius: 1em;
 }
 
@@ -251,10 +250,22 @@ p {
 }
 
 .zorozoro img {
-    position: absolute;
+    position: relative;
     bottom: 0%;
     left: 0%;
-    height: 550px;
-    width: 550px;
+    height: 300px;
+    width: 700px;
     z-index: 20;
+}
+
+
+.ittekoibtn {
+    margin-top: 5%;
+    font-size: 150%;
+}
+
+.btn { 
+    font-size: 150%;
+    font-style: underline;
+    color: black;
 }
