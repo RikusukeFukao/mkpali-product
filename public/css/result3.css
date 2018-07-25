@@ -1,15 +1,10 @@
 @charset "utf-8";
 
-@font-face {
-font-family: "GenEi";
-src: url('font/0718GenEi.eot');
-src: url('font/0718GenEi.woff') format('woff');
-}
 
 @font-face {
-font-family: "Chikara";
-src: url('font/0719Chikara.eot');
-src: url('font/0719Chikara.woff') format('woff')
+font-family: "result3";
+src: url('font/result3.eot');
+src: url('font/result3.woff') format('woff')
 }
 
 body {
@@ -26,7 +21,7 @@ body {
 .rikuzou img {
     position: absolute;
     bottom: 0%;
-    left: 30%;
+    left: 0%;
     height: 550px;
     width: 550px;
     z-index: 20;
@@ -35,14 +30,14 @@ body {
 
 
 .real {
-    color: white;
+    color: #DCDDDD;
     position: absolute;
     font-size:700%;
-    left: 23%;
-    top: 0%;
+    left: 40%;
+    top: 50%;
     font-weight: 900;
-    z-index: 10;
-    font-family: 'Chikara';
+    z-index: 30;
+    font-family: 'result3';
 }
 
 /*指示書*/
@@ -135,13 +130,21 @@ a {
     color: #61605C; 
     font-size: 150%;
     display: inline-block;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     padding: 5px;
     border: 1px double #61605C;
     border-width: 10px;
 }
 
-.ittekoibtn{
-    font-size:100%;
-    
+.ittekoibtn {
+    margin-top: 2%;
+    font-size: 150%;
+    color: #61605C;
+}
+
+.btn { 
+    font-size: 150%;
+    font-style: underline;
+    color: #61605C;
+    margin-bottom: 2%;
 }
