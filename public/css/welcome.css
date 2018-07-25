@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+@font-face {
+font-family: "welcome";
+src: url('font/welcome.eot');
+src: url('font/welcome.woff') format('woff');
+}
+
 body{
     background: url("/images/viber image.jpg");
     background-position: center center;
@@ -10,15 +16,15 @@ body{
 }
 
 @font-face{
-  font-family: "app";
-  src: url("/images/app.woff") format("woff");
+  font-family: "welcome";
+  src: url("/font/welcome.woff") format("woff");
 }
 
 
 p{
     font-size: 43px;
     font-weight: 900;
-    font-family: "app";
+    font-family: "welcome";
     text-align: start;
     white-space: nowrap;
     overflow: hidden;
@@ -289,7 +295,7 @@ p{
   p{
     font-size: 13px;
     font-weight: 900;
-    font-family: "app";
+    font-family: "welcome";
     text-align: start;
     white-space: nowrap;
     overflow: hidden;
