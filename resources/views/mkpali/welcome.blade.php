@@ -14,11 +14,11 @@
     <div class="dismiss1"><p class="anim-typewriter-1">この画面を見ているそこの君！</p></div>
     <div class="dismiss2"><p class="anim-typewriter-2">さぁ、「非日常」の世界に出発しよう！</p></div>
     <div class="dismiss3"><p class="anim-typewriter-3">進め方は簡単だ！</p></div>
-    <div class="dismiss4"><p class="anim-typewriter-4">壱、出されたお題を読む！</p></div>
-    <div class="dismiss5"><p class="anim-typewriter-5">弐、覚悟を決める！</p></div>
-    <div class="dismiss6"><p class="anim-typewriter-6">参、自分で実行する！</p></div>
-    <div class="dismiss7"><p class="anim-typewriter-7">お題を実行するかは5秒で決めるんだ！</p></div>
-    <div class="dismiss8"><p class="anim-typewriter-8">お題を変えられるのは3回までだぞ！</p></div>
+    <div class="dismiss4"><p class="anim-typewriter-4">１、出されたお題を読む！</p></div>
+    <div class="dismiss5"><p class="anim-typewriter-5">２、覚悟を決める！</p></div>
+    <div class="dismiss6"><p class="anim-typewriter-6">３、自分で実行する！</p></div>
+    <div class="dismiss7"><p class="anim-typewriter-7">お題を実行するかは１０秒で決めるんだ！</p></div>
+    <div class="dismiss8"><p class="anim-typewriter-8">お題を変えられるのは３回までだぞ！</p></div>
     <div class="dismiss9"><p class="anim-typewriter-9">最後に</p></div>
     <div class="dismiss10"><p class="anim-typewriter-10">俺は君の背中を押すことしかできない！</p></div>
     <div class="dismiss11"><p class="anim-typewriter-11">実際に行動を起こすのは君自身だ！</p></div>
