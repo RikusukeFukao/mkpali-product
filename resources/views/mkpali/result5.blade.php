@@ -8,7 +8,7 @@
 
 <body>
     <div class="rikuzou">
-        <img src="./images/syuuzou.gif" alt="りくぞう">
+        <img src="./images/yatta.png" alt="りくぞう">
     </div>       
           
     <!--最初のコメント -->
@@ -71,31 +71,13 @@
                 いろいろお得なんで、一応張っておくわ。
             </p>
         
-        
-            <div id="map" style="width:400px; height:300px; color:black"/></div>
-    
-            <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
-            <script type="text/javascript">
-            window.onload = function(){
-            var ymap = new Y.Map("map");
-            ymap.drawMap(new Y.LatLng(35.661300, 139.697927), 17, Y.LayerSetId.NORMAL);
-            var label = new Y.Label(new Y.LatLng(35.661300, 139.697927), "チルイン<br>03-6427-0826");
-            ymap.addFeature(label);
-    };
-            </script>
+        <div class="map">
+        <img src="./images/shishamap.png" alt="map">
         </div>
-        <br>
-            <br>            
-            <br>
-            <br>
-            <br>
-          <div class="ittekoibtn">
-              最後までほんとに読んだか？<br>
-          <a href="ittekoi2" class="btn btn-lg animated-button thar-three">YES</a>
-          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
-          </div>
-        
-        
+        <div class="ittekoibtn">
+            最後までほんとに読んだか？<br>
+        <a href="ittekoi5" class="btn">》YES</a>
+        </div>
     </div>
 </body>
 @endsection

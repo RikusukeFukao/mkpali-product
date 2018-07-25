@@ -78,7 +78,7 @@
         
         <div class="ittekoibtn">
               最後までほんとに読んだか？<br>
-        <a href="ittekoi3" class="btn">YES</a>
+        <a href="ittekoi5" class="btn">》YES</a>
         </div>
         
     </div>
