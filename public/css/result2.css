@@ -350,7 +350,7 @@ font-weight: 900;
 font-family: 'Yu Gothic'
 }
 
-/*エスパス日拓溝の口店*/
+
 .shop{
     font-weight: 900;
     font-family: 'Yu Gothic';
@@ -365,10 +365,28 @@ font-family: 'Yu Gothic'
     font-size: 150%;
 }
 
-#map {
-    position: absolute;
-    left: 23%;
-    margin: 5%;
+.map1 img{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.map2 img{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.map3 img{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 

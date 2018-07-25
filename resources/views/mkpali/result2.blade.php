@@ -149,23 +149,15 @@
             ☆おすすめパチンコ☆
         </div>
         
+        
         <div class="shop">
-            ✍エスパス日拓溝の口店
-        </div>       
-            
-      
-        <!--地図-->
-            <div id="map" style="width:400px; height:300px; color:black"/></div>
-    
-            <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
-            <script type="text/javascript">
-            window.onload = function(){
-            var ymap = new Y.Map("map");
-            ymap.drawMap(new Y.LatLng(35.600638, 139.611358), 17, Y.LayerSetId.NORMAL);
-            var label = new Y.Label(new Y.LatLng(35.600638, 139.611358), "エスパス日拓溝の口店");
-            ymap.addFeature(label);
-    };
-            </script>
+           ✍エスパス日拓溝の口店
+        </div>  
+        
+         
+        <div class= "map1">    
+                <img src="./images/pachi-map-mizo.jpg" alt="溝の口"  >
+        </div>  
         
         <div class="shopinfo">
             個人的に相性がいいお店だ！Aタイプのスロットがおすすめ！
@@ -178,8 +170,8 @@
             ✍エスパス日拓新大久保ライト館
         </div>
         
-        <div class= "mappp">    
-                <img src="./images/map2.png" alt="新大久保" class="map" >
+        <div class= "map2">    
+                <img src="./images/map2.png" alt="新大久保" >
         </div>
         
         
@@ -194,8 +186,8 @@
             ✍ビーム大塚
         </div>
         
-        <div class= "mappp">    
-                <img src="./images/map3.png" alt="新大久保" class="map" >
+        <div class= "map3">    
+                <img src="./images/map3.png" alt="新大久保"  >
         </div>
         
         
