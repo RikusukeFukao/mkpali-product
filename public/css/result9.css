@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+@font-face {
+font-family: "GenEi";
+src: url('font/0718GenEi.eot');
+src: url('font/0718GenEi.woff') format('woff');
+}
+
+@font-face {
+font-family: "Chikara";
+src: url('font/0719Chikara.eot');
+src: url('font/0719Chikara.woff') format('woff')
+}
+
+body {
+    background-image: url("../images/demoback.jpg");
+    color: black;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*りくぞう写真*/
+.rikuzou img {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 550px;
+    width: 550px;
+    z-index: 20;
+}
+
+.declare1 {
+    color: black;
+    position: absolute;
+    font-size:600%;
+    left: 27%;
+    top: 60%;
+    font-weight: 900;
+    z-index: 30;
+    font-family: 'Chikara';
+}
+
+.declare2 {
+    color: black;
+    position: absolute;
+    font-size:540%;
+    left: 27%;
+    top: 80%;
+    font-weight: 900;
+    z-index: 30;
+    font-family: 'Chikara';
+}
+
+#wrap{
+    background-color: #FFD700;
+    margin-top: 55%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    border-radius: 1em;
+    padding-bottom: 3%;
+    opacity: 0.95;
+    padding-top: 25px;
+    padding: 30px 10px;
+    position: relative;
+    text-align: center;
+}
+
+#wrap:before{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 80px;
+    background-color: #DDDDDD;
+    border-left: 4px dotted gray;
+    border-right: 4px dotted gray;
+    top: -2%;
+    left: 35%;
+    transform: rotate(30deg);
+    opacity: 0.9;
+}
+
+
+
+
+/*指示書*/
+.content {
+    margin-top: 7%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 500%;
+    font-family: 'MS UI Gothic',sans-serif;
+    width: 50%;
+    padding-bottom: -5%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;    
+}
+
+#advantage {
+    margin-bottom: 12%;
+    font-size: 160%;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+    text-align: left;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+#genre {
+    font-size: 300%;
+}
+
+#number1 {
+    font-size: 1200%;
+    position: absolute;
+    margin-left: 17%;
+}
+
+#number2 {
+    font-size: 1000%;
+    position: absolute;
+    margin-left: 18%;
+}
+
+#number3 {
+    font-size: 1000%;
+    position: absolute;
+    margin-left: 18%;
+}
+
+/*吹き出し*/
+#comment {
+ 	position: relative;
+ 	left: 18%;
+	display: block;
+ 	margin: 1.5em 0 1.5em 15px;
+	padding: 7px 10px;
+	min-width: 120px;
+ 	max-width: 60%;
+ 	color: #FFD700;
+	font-size: 150%;
+	border-radius: 5px;
+	background: black;
+	line-height: 200%;
+}
+
+#comment:before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -30px;
+ 	margin-top: -15px;
+	border: 15px solid transparent;
+	border-right: 15px solid black;
+}
+
+#comment p {
+	margin: 0;
+	padding: 0;
+}
+
+
+#temptation {
+    font-size: 130%;
+}
+
+p {
+    font-size: 120%;
+}
+
+.recommend {
+    border: 5px solid black;
+    border-radius: 4px;
+    margin: 0 auto;
+    /*padding: 0em;*/
+    /*padding-left: 4em;*/
+    /*padding-right: 4em;*/
+    position: relative;
+    width: 60%; 
+    color: black;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    border-radius: 1em;
+}
+
+
+    
+.recommend::before {
+    background-color: #FFD700;
+    color: black;
+    content: "おすすめ";
+    font-size: 200%;
+    font-weight: 900;
+    padding: 0 .5em;
+    position: absolute;
+    left: 37%;
+    top: -10%;
+}
+
+
+
+
+
+
+
+
+
+
+.demomarch img {
+    position: relative;
+    height: 250px;
+    width: 250px;
+}
+
+.trend img {
+    position: relative;
+    height: 250px;
+    width: 250px;
+}
+
+.experience img {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin-top: 12%;
+}
+
+.start img {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin-top: 12%;
+}
+
+.emphasize img {
+    position: relative;
+    height: 30%;
+    width: 100%;
+}
+
+.zorozoro img {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 550px;
+    width: 550px;
+    z-index: 20;
+}

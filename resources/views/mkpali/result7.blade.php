@@ -13,7 +13,7 @@
           
     <!--最初のコメント -->
     <div class="declare1">
-        やったな！！oi
+        やったな！！
     </div>
     
     <div class="declare2">
