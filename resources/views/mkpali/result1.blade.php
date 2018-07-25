@@ -121,12 +121,11 @@
                 <img src="./images/puri-2.jpg" alt="fukidashi" width=80 height=80 class="puri-9">
             </div>
                 
+        
         <div class="ittekoibtn">
               最後までほんとに読んだか？<br>
-          <a href="ittekoi1" class="btn btn-lg animated-button thar-three">YES</a>
-          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
-          </div>    
-                
+          <a href="ittekoi9" class="btn">》YES</a>
+        </div>       
                 
     <!--wrapのdiv-->
     </div>
