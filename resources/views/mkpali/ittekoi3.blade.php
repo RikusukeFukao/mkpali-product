@@ -6,7 +6,7 @@
 
 
 <div class="riku">
-   <img src="../images/riku-smile.jpg">
+   <img src="../images/smile.png">
 </div>
 
 <div class="backboard">

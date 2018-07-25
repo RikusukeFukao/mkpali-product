@@ -80,7 +80,7 @@
           }
         }// end function
         $(function() {
-          countdown('window.location.replace("ng")', 5);
+          countdown('window.location.replace("ng")', 7);
         });
         
         </script>

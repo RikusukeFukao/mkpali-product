@@ -223,7 +223,7 @@ span:nth-child(even){
     font-size: 100%;
     font-weight: bold;
     margin-top:-20%;
-    margin-left:-30%;;
+    margin-left:-20%;;
     position: relative;
     background-color: transparent;
     border-color: black;
@@ -236,7 +236,7 @@ span:nth-child(even){
     font-size: 100%;
     font-weight: bold;
     margin-top:-20%;
-    margin-left:-30%;;
+    margin-left:-20%;;
     position: relative;
     background-color: rgba(255, 255, 255, .2);
     border-color: black;
@@ -249,7 +249,7 @@ span:nth-child(even){
     font-size: 100%;
     font-weight: bold;
     margin-top:-20%;
-    margin-left:-30%;;
+    margin-left:-20%;;
     position: relative;
     background-color: rgba(255, 255, 255, .2);
     border-color: black;
@@ -262,9 +262,9 @@ span:nth-child(even){
     display: block;
     font-size: 100%;
     font-weight: bold;
-    width: 110%;
+    width: 180%;
     margin-top:20%;
-    position: relative;
+    margin-left:-30%;
     color: black;
     border-color: white;
     background-color: transparent;
@@ -277,9 +277,9 @@ span:nth-child(even){
     display: block;
     font-size: 100%;
     font-weight: bold;
-    width: 110%;
+    width: 180%;
     margin-top:20%;
-    position: relative;
+    margin-left:-30%;
     color: black;
     border-color: white;
     background-color: rgba(255, 255, 255, .2);
@@ -292,9 +292,9 @@ span:nth-child(even){
     display: block;
     font-size: 100%;
     font-weight: bold;
-    width: 110%;
+    width: 180%;
     margin-top:20%;
-    position: relative;
+    margin-left:-30%;
     color: black;
     border-color: white;
     background-color: rgba(255, 255, 255, .2);
@@ -307,9 +307,9 @@ span:nth-child(even){
     display: block;
     font-size: 100%;
     font-weight: bold;
-    width: 110%;
+    width: 180%;
     margin-top:20%;
-    position: relative;
+    margin-left:-30%;
     color: black;
     border-color: white;
     background-color: rgba(255, 255, 255, .2);

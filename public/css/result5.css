@@ -189,6 +189,7 @@ p.margin-bottom {
 
 
 
+
 @media only screen and (max-width: 750px) {
 
 
@@ -257,7 +258,7 @@ body {
 
 .part1{
     margin: 0 auto;
-    width:80%; height:300%;
+    width:90%; height:300%;
     color: #FEF7E7;
     text-align: center;
     padding-top: 10px;
@@ -267,7 +268,7 @@ body {
 
 .part2{
     margin: 0 auto;
-    width:80%; height:300%;
+    width:90%; height:300%;
     color: #FEF7E7;
     text-align: center;
     padding-top: 10px;
@@ -277,11 +278,12 @@ body {
 
 .part3{
     margin: 0 auto;
-    width:80%; height:300%;
+    width:90%; height:300%;
     color: #FEF7E7;
     text-align: center;
     font-family: YuGothic,'Yu Gothic',sans-serif;
     margin-bottom: 5%;
+    font-size: 89%;
 }
 
 .part4{
@@ -338,11 +340,12 @@ p.ellipse {
 }
 
 p {
-    font-size: 120%;
+    font-size: 130%;
     font-weight: 400;
 }
 p.margin-bottom {
     margin-bottom: 3%;
+    font-size: 120%;
 }
 
 .map img {
@@ -354,12 +357,12 @@ p.margin-bottom {
 
 .ittekoibtn {
     margin-top: 5%;
-    font-size: 100%;
+    font-size: 140%;
     color: #FEF7E7;
 }
 
 .btn { 
-    font-size: 100%;
+    font-size: 130%;
     font-style: underline;
     color: #FEF7E7;
 }
