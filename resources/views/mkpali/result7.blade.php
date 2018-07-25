@@ -8,7 +8,7 @@
 
 <body>
     <div class="rikuzou">
-        <img src="./images/syuuzou.gif" alt="りくぞう">
+        <img src="./images/gattu.png" alt="りくぞう">
     </div>       
           
     <!--最初のコメント -->
