@@ -24,11 +24,12 @@ body {
 /*りくぞう写真*/
 .rikuzou img {
     position: absolute;
-    bottom: 15%;
+    bottom: 0%;
     left: 10%;
-    height: 550px;
-    width: 550px;
-    z-index: 20;
+    height: 700px;
+    width: 700px;
+    transform: rotate(-10deg);
+    z-index: 10;
 }
 
 /*よくやったテキスト*/
@@ -43,7 +44,7 @@ body {
     color: #fff;
     text-shadow: 0 0 15px #FF6694;
     font-family: 'メイリオ', Meiryo,sans-serif;
-    z-index: 10;
+    z-index: 20;
 }
 
 
@@ -105,11 +106,11 @@ body {
     margin-top: 55%;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     border-radius: 1em;
     height: 100%;
-    padding-bottom: 25%;
-    padding-top: 0.5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
     background: #FEA993;
     border: 5px dashed #F7F9CC;
     border-radius: 10px;
@@ -139,8 +140,8 @@ body {
 }
 
 .iikoto-contents{
-    margin-top: 8%;
-    margin-bottom: 15%;
+    margin-top: 3%;
+    margin-bottom: 8%;
     font-size: 150%;
     font-weight: 900;
     color: white;
