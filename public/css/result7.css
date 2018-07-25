@@ -115,6 +115,7 @@ body {
 
 h2 {
     font-style: oblique;
+     font-family: 'SimSun';
 }
 
 
@@ -126,12 +127,14 @@ h3 {
     color: black;
     margin-bottom: 5%;
     font-weight: 900;
+     font-family: 'SimSun';
 }
 
 p {
     font-size: 150%;
     font-weight: 400;
     color: black;
+     font-family: 'SimSun';
 }
 
 span {
@@ -150,32 +153,32 @@ span {
 
 .scissors img {
     position: absolute;
-    top: 300%;
-    left: 20%;
+    top: 200%;
+    left: 34%;
     height: 50px;
     width: 50px;
 }
 
 .comb img {
     position: absolute;
-    top: 310%;
-    left: 20%;
+    top: 305%;
+    left: 31%;
     height: 50px;
     width: 50px;
 }
 
 .drier img {
     position: absolute;
-    top: 320%;
-    left: 20%;
+    top: 372%;
+    left: 28%;
     height: 50px;
     width: 50px;
 }
 
 .chair img {
     position: absolute;
-    top: 330%;
-    left: 20%;
+    top: 392%;
+    left: 36%;
     height: 50px;
     width: 50px;
 }
