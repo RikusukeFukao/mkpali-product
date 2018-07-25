@@ -10,7 +10,7 @@
 
     <body>
         <div class="rikuzou">
-            <img src="./images/syuuzou.gif" alt="りくぞう">
+            <img src="./images/heart.png" alt="りくぞう" width=800 heigh=800>
         </div>       
               
         <!--最初のコメント -->
@@ -53,7 +53,7 @@
         </div>
         
         <div class="iikoto-contents">
-            <img src="./images/syuuzou.gif" alt="りくぞう">
+            <img src="./images/karada.png" alt="りくぞう" width=600 height=500>
         </div>
         
         <div class="iikoto">
@@ -160,7 +160,20 @@
                 日本でこんなにもdiversityに<br>
                 あふれた場所はない！
             </div>
+            <br>
+            <br>            
+            <br>
+            <br>
+            <br>
+       
+        <div class="clear">
+            </div>    
             
+          <div class="ittekoibtn">
+              最後までほんとに読んだか？<br>
+          <a href="ittekoi6" class="btn btn-lg animated-button thar-three">YES</a>
+          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
+          </div>
     
         
     <!--wrapのdiv-->

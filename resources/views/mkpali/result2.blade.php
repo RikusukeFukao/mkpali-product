@@ -13,7 +13,7 @@
         <!--<img src="./images/waterdrops2.png" alt="fixedImage" id="froatButton2">-->
         
         <div class="rikuzou">
-            <img src="./images/syuuzou.gif" alt="りくぞう">
+            <img src="./images/yatta.png" alt="りくぞう">
         </div>       
               
         <!--最初のコメント -->
@@ -88,7 +88,7 @@
         
         <secrtion>
             <div class=rikuzosoukai>
-            <img src="../images/soukai1.png" alt="soukai" height="200" width="180" />
+            <img src="../images/gattu.png" alt="soukai" height="200" width="180" />
             </div>
         
             <div class=soukai>
@@ -107,7 +107,7 @@
             
         <section>
             <div class=rikuzopositive>
-                <img src="../images/positive.png" alt="positive" height="200" width="300" />
+                <img src="../images/banzai.png" alt="positive" height="200" width="300" />
             </div>
             
             <div class= "positive">
@@ -125,7 +125,7 @@
         
         <section>
             <div class=rikuzolucky>
-                <img src="../images/positive.png" alt="positive" height="200" width="300" />
+                <img src="../images/nayami.png" alt="positive" height="200" width="300" />
 
             </div>
             
@@ -153,15 +153,19 @@
             ✍エスパス日拓溝の口店
         </div>       
             
-       <div id="map3" style="width:400px; height:300px"></div>
-
-        <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
-        <script type="text/javascript">
-        window.onload = function(){
-        var ymap = new Y.Map("map");
-        ymap.drawMap(new Y.LatLng(35.637389, 139.419970), 17, Y.LayerSetId.NORMAL);
-};
-        </script>
+      
+        <!--地図-->
+            <div id="map" style="width:400px; height:300px; color:black"/></div>
+    
+            <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
+            <script type="text/javascript">
+            window.onload = function(){
+            var ymap = new Y.Map("map");
+            ymap.drawMap(new Y.LatLng(35.600638, 139.611358), 17, Y.LayerSetId.NORMAL);
+            var label = new Y.Label(new Y.LatLng(35.600638, 139.611358), "エスパス日拓溝の口店");
+            ymap.addFeature(label);
+    };
+            </script>
         
         <div class="shopinfo">
             個人的に相性がいいお店だ！Aタイプのスロットがおすすめ！
@@ -174,15 +178,11 @@
             ✍エスパス日拓新大久保ライト館
         </div>
         
-        <div id="map2" style="width:400px; height:300px"></div>
-
-            <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
-            <script type="text/javascript">
-            window.onload = function(){
-            var ymap = new Y.Map("map");
-            ymap.drawMap(new Y.LatLng(35.600638, 139.611358), 17, Y.LayerSetId.NORMAL);
-    };
-            </script>
+        <div class= "mappp">    
+                <img src="./images/map2.png" alt="新大久保" class="map" >
+        </div>
+        
+        
         
         <div class="shopinfo">
             東京では珍しい低貸専門店だ！長く遊びたいならここ！
@@ -194,25 +194,27 @@
             ✍ビーム大塚
         </div>
         
-        <div id="map3" style="width:400px; height:300px"></div>
-
-        <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
-        <script type="text/javascript">
-        window.onload = function(){
-        var ymap = new Y.Map("map");
-        ymap.drawMap(new Y.LatLng(35.637389, 139.419970), 17, Y.LayerSetId.NORMAL);
-};
-        </script>
+        <div class= "mappp">    
+                <img src="./images/map3.png" alt="新大久保" class="map" >
+        </div>
+        
+        
         
         <div class="shopinfo">
             私が人生最大の一撃3万5千発を出したホールだ！リングがおすすめ！<br>
             
             <br>
             <br>            
+            <br>
+            <br>
+            <br>
             
-            
-            
-        </div>
+          <div class="ittekoibtn">
+              最後までほんとに読んだか？<br>
+          <a href="ittekoi2" class="btn btn-lg animated-button thar-three">YES</a>
+          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
+          </div>
+
 
 
   <body>

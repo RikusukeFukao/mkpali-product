@@ -60,7 +60,7 @@
     
      <section>
         <div class="merit1">
-            <p>1. 独立心・チャレンジ精神が養われる</p  >        
+            <p>1. 独立心・チャレンジ精神が養われる</p>        
         </div>
         
         <div class="merit1content">
@@ -91,6 +91,12 @@
             </p>            
         </div>
     </section>
+    
+    <div class="ittekoibtn">
+              最後までほんとに読んだか？<br>
+    <a href="ittekoi4" class="btn btn-lg animated-button thar-three">YES</a>
+          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
+    </div>
         
     <!--wrapのdiv-->
     </div>
