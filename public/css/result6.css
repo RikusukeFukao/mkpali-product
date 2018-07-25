@@ -195,3 +195,196 @@ body {
     font-size:100%;
     
 }
+
+@media only screen and (max-width: 750px) {
+    body::before{
+    background: url("/images/nampa-background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-color:white;
+}
+
+/*りくぞう写真*/
+.rikuzou img {
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    height: 90%;
+    width: 50%;
+    transform: rotate(-10deg);
+    z-index: 10;
+}
+
+/*よくやったテキスト*/
+.yokuyatta {
+    position: absolute;
+    text-align: left;
+    transform: rotate(-10deg);
+    font-weight: 900;
+    font-size:350%;
+    top:30%;
+    left:9%;
+    color: #fff;
+    text-shadow: 0 0 15px #FF6694;
+    font-family: 'メイリオ', Meiryo,sans-serif;
+    z-index: 20;
+}
+
+
+/*指示書*/
+    .content {
+      /*font-family: 'Nixie One', cursive;*/
+    font-size: 130%;
+    width: 50%;
+    font-weight: 900;
+        
+    position: relative;
+    background: #F7F9CC;
+    color:#DC143C;
+     text-align: center;
+     padding: 1em 2em; /* Adjust to suit */
+     margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the content 'graphics' take up 24px themselves so we double it. */
+     width: 30%;
+     font-family: 'メイリオ', Meiryo,sans-serif;
+    }
+    .content:before, .content:after {
+     content: "";
+     position: absolute;
+     display: block;
+     bottom: -1em;
+     border: 1.5em solid #F7F9CC;
+     z-index: -1;
+    }
+    .content:before {
+     left: -2em;
+     border-right-width: 1.5em;
+     border-left-color: transparent;
+    }
+    .content:after {
+     right: -2em;
+     border-left-width: 1.5em;
+     border-right-color: transparent;
+    }
+    .content-content:before, .content-content:after {
+     content: "";
+     position: absolute;
+     display: block;
+     border-style: solid;
+     border-color: #FFFF66	 transparent transparent transparent;
+     bottom: -1em;
+    }
+    .content-content:before {
+     left: 0;
+     border-width: 1em 0 0 1em;
+    }
+    .content-content:after {
+     right: 0;
+     border-width: 1em 1em 0 0;
+    }
+                
+
+/*コンテンツの背景*/
+#wrap{
+    background:linear-gradient(180deg,#FFFFCC 0%,#FFFFCC 3%,white 5%,white 100%);
+    margin-top: 55%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    border-radius: 1em;
+    height: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background: #FEA993;
+    border: 5px dashed #F7F9CC;
+    border-radius: 10px;
+    box-shadow: 0 0 0 7px #FEA993;
+    opacity: 0.8;
+}
+
+
+
+.heart1{
+   animation: pounding .5s linear infinite alternate;
+   font-size: 1500%;
+   color:red;
+}
+ 
+
+.iikoto{
+    display:inline-block;
+    font-size:180%;
+    font-weight: 900;
+    color: white;
+    margin-top:0%;
+    font-family: 'メイリオ', Meiryo,sans-serif;
+    text-align:center;
+}
+
+.iikoto-contents{
+    margin-top: 3%;
+    margin-bottom: 8%;
+    font-size: 80%;
+    font-weight: 900;
+    color: white;
+    line-height: 250%;
+}
+
+.merit{
+    displya:inline-block;
+    text-align:center;
+    font-size:200%;
+    font-weight: 900;
+    color: white;
+    margin-top:5%;
+}
+
+.merit-contents{
+    margin-top: 1%;
+    margin-bottom: 15%;
+    font-size: 100%;
+    font-weight: 900;
+    color: white;
+    line-height: 250%;
+}
+
+.merit-crimson{
+    font-size:200%;
+    font-weight: 900;
+    color: #DC143C;
+    margin-top:5%;
+}
+
+.map img {
+    position: relative;
+    width: 30%;
+    left:10%;
+    margin: 3%;
+    float: left;
+}
+
+.spotinfo{
+    font-size: 100%;
+    transform: rotate(-10deg);
+    font-weight: 900;
+    margin-left: 10%;
+    margin-top: 5%;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+.ittekoibtn{
+    margin-top:30%;
+    font-size:100%;
+    
+}
+
+.iikoto-contents img{
+ height:50%;
+ width:40%;
+}
+
+}
