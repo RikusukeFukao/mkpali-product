@@ -1,15 +1,10 @@
 @charset "utf-8";
 
-@font-face {
-font-family: "GenEi";
-src: url('font/0718GenEi.eot');
-src: url('font/0718GenEi.woff') format('woff');
-}
 
 @font-face {
-font-family: "Chikara";
-src: url('font/0719Chikara.eot');
-src: url('font/0719Chikara.woff') format('woff')
+font-family: "result3";
+src: url('font/result3.eot');
+src: url('font/result3.woff') format('woff')
 }
 
 body {
@@ -26,8 +21,8 @@ body {
 .rikuzou img {
     position: absolute;
     bottom: 0%;
-    left: 30%;
-    height: 550px;
+    left: 0%;
+    height: 60-0px;
     width: 550px;
     z-index: 20;
 }
@@ -35,13 +30,13 @@ body {
 
 
 .real {
-    color: white;
+    color: #DCDDDD;
     position: absolute;
     font-size:700%;
     left: 23%;
     top: 0%;
     font-weight: 900;
-    z-index: 10;
+    z-index: 30;
     font-family: 'Chikara';
 }
 
