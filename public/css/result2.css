@@ -40,20 +40,20 @@ body {
 .rikuzou img {
     position: absolute;
     bottom: 0%;
-    left: 30%;
-    height: 550px;
-    width: 550px;
-    z-index: 20;
+    left: 23%;
+    height: 800px;
+    width: 800px;
+    z-index: 10;
 }
 
 /*よくやったテキスト*/
 .yokuyatta {
     position: absolute;
     font-size:650%;
-    left: 7%;
+    left: 10%;
     top: 0%;
     font-weight: 900;
-    z-index: 10;
+    z-index: 20;
     font-family: 'Chikara';
     color: black;
     /*background-color: #888888;*/
@@ -118,20 +118,7 @@ body {
             @keyframes stroke-offset{
             100% {stroke-dashoffset: -35%;}
             }
-/*.content {*/
-/*    margin-top: 5%;*/
-/*    position: relative;*/
-/*    display: inline-block;*/
-/*    text-align: center;*/
-/*    font-size: 800%;*/
-/*    font-weight: 900;*/
-/*    font-family: 'MS UI Gothic',sans-serif;*/
-/*    color: #FFFF00;*/
-/*    text-shadow: 5px 5px 0 #880000,*/
-/*             -5px 5px 0 #880000,*/
-/*             5px -5px 0 #880000,*/
-/*             -5px -5px 0 #880000;*/
-/*}*/
+
 
 
 #wrap{
@@ -366,9 +353,9 @@ font-family: 'Yu Gothic'
 }
 
 #map {
-    position: relative;
-    left: 32%;
-    margin-bottom: 5%;
+    position: absolute;
+    left: 23%;
+    margin: 5%;
 }
 
 
@@ -378,16 +365,18 @@ font-family: 'Yu Gothic'
 @media only screen and (max-width: 750px) {
     
 /*りくぞう写真*/
+
+.rikuzou img{
+    width: 300%;
+}
 .rikuzou img {
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    width: 50%;
-    z-index: 20;
-    bottom: 15%;
-    height:auto;
-    top: 50%;
-    position: center;
+    /*position: absolute;*/
+    /*left: 0%;*/
+    /*top: 0%;*/
+    /*width: 50%;*/
+    /*z-index: 20;*/
+    /*bottom: 15%;*/
+    /*height:auto;*/
     
     
 }
@@ -395,8 +384,8 @@ font-family: 'Yu Gothic'
 /*よくやったテキスト*/
 .yokuyatta {
     position: absolute;
-    font-size:200%;
-    left: 10%;
+    font-size:500%;
+    left: 15%;
     top: 25%;
     font-weight: 900;
     z-index: 10;
@@ -443,7 +432,7 @@ font-family: 'Yu Gothic'
     padding: 2em;
     margin: 0 auto;
     width:60%; height:300%;
-    color: brown;
+    color: red;
     margin-top: 30px;
     font-family: YuGothic,'Yu Gothic',sans-serif;
 }
@@ -642,8 +631,9 @@ font-family: 'Yu Gothic'
 .shop{
     font-weight: 900;
     font-family: 'Yu Gothic';
-    margin-top: 5%;
+    margin-top: 0%;
     font-size: 150%;
+
 }
 
 .shopinfo{
@@ -654,8 +644,11 @@ font-family: 'Yu Gothic'
 
 #map {
     position: relative;
-    left: 32%;
-    margin-bottom: 5%;
+    left: 30%;
+}
+
+.mappp{
+    margin: 30%;
 }
 
 .ittekoibtn{
