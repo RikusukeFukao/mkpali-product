@@ -54,23 +54,26 @@ overflow-x:hidden;
 @media only screen and (max-width: 750px) {
 
 body::before{
+    background-color: #f0f0f0;
     background: url("/images/viber image.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% auto;
+    background-size: 100%;
     background-color:black;
 }
 
 .ore img{
-   
-    height: 45%;
-    width: 50%;
+    top: 25%;
+    height: 60%;
+    width: 60%;
     z-index:30;
 }
 
 .rikuzo img{
-    height: 100%;
-    width: 50%;
+    top: auto;
+    height: 130%;
+    width: 60%;
+    left: 40%;
 }
 }

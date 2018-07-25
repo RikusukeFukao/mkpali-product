@@ -27,7 +27,7 @@
   }// end function
   
   $(function() {
-    countdown('window.location.replace("welcome")', 3);
+    countdown('window.location.replace("welcome")', 1111113);
   });
   
   </script>
