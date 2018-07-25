@@ -49,7 +49,7 @@
           <a href="result8" class="yesbtn">俺がやる!</a>
           
           
-          <?php }elseif ($r == 8){ ?>
+          <?php }elseif ($r == 6){ ?>
           
           <h1>デモ、参加してみろや！</h1>
           <a href="result9" class="yesbtn">俺がやる!</a>
