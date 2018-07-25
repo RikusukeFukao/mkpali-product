@@ -238,3 +238,244 @@ body {
     font-style: underline;
     color: black;
 }
+
+@media only screen and (max-width: 750px) {
+    body::before{
+    background: url("/images/puri-background-min.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-color:black; 
+}
+
+/*りくぞう写真*/
+.rikuzou img {
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    height: 90%;
+    width: 70%;
+    z-index: 10;
+}
+
+.font{
+    font-family: 'Azuki';
+    font-weight: 900;
+}
+
+/*よくやったテキスト*/
+.yokuyatta {
+    position: relative;
+    font-size: 500%;
+    text-align: center;
+    margin-top:24%;
+    font-weight: 900;
+    z-index: 20;
+    font-family: 'Azuki';
+    
+    
+    color: black;
+    text-shadow: 0 1px 60px #FF00FF, 0 0 12px #FF00FF, 2px 5px 60px #FF00FF;
+}
+
+
+
+/*指示書*/
+.content {
+    margin-top: 5%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: black;
+    width: 50%;
+    font-size: 200%;
+    font-weight: 900; 
+    }
+                
+
+/*コンテンツの背景*/
+#wrap{
+    background: white;
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    border-radius: 1em;
+    padding-bottom: 10%;
+    opacity: 0.85;
+}
+
+.part1{
+    font-size: 90%;
+    font-weight: 900;
+    line-height: 250%;
+    color: black;
+    padding-top: 8%;
+}
+
+.part2 h3{
+    font-size: 150%;
+    font-weight: 900;
+    line-height: 250%;
+    padding-top: 8%;
+    color: black;
+    text-shadow: 0 1px 30px #FF00FF, 0 0 12px #FF00FF, 2px 5px 60px #FF00FF;
+}
+
+.part2 p{
+    font-size: 100%;
+    font-weight: 600;
+    line-height: 250%;
+    color: black;
+    padding-top: 3%;
+}
+
+.map {
+    position: relative;
+    left: 28%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.part3 h3{
+    font-size: 100%;
+    font-weight: 600;
+    line-height: 250%;
+    color: black;
+    padding-top: 8%;
+    text-shadow: 0 1px 30px #FF00FF, 0 0 12px #FF00FF, 2px 5px 60px #FF00FF;
+}
+
+.part3 p{
+    font-size: 100%;
+    font-weight: 600;
+    line-height: 250%;
+    color: black;
+    padding-top: 3%;
+    text-shadow: 0 1px 30px #FF00FF, 0 0 12px #FF00FF, 2px 5px 60px #FF00FF;
+}
+
+
+
+/*ポーズの説明*/
+.fukidashi img{
+    position: relative;
+    height:50%;
+    width:70%;
+    margin: 0 auto;
+}
+
+.pose1 {
+    position: absolute;
+    top:483%;
+    left: 23%;
+    font-size: 100%;
+    font-weight: 900;
+    padding: 5%;
+    z-index: 20;
+    
+}
+
+.pose2{
+    position: absolute;
+    font-size: 100%;
+    font-weight: 900;
+    padding: 5%;
+    z-index: 20;
+    top: 595%;
+    left: 23%;
+}
+
+.pose3{
+    position: absolute;
+    font-size: 100%;
+    font-weight: 900;
+    padding: 5%;
+    z-index: 20;
+    top: 734%;
+    left: 22%;
+}
+
+
+.puri-1 {
+    position: absolute;
+    height:9%;
+    width:8%;
+    top: 185%;
+    left: 15%;
+}
+
+.puri-2 {
+    position: absolute;
+    height:9%;
+    width:8%;
+    top: 250%;
+    left: 15%;
+}
+
+.puri-3 {
+    position: absolute;
+    height:9%;
+    width:8%;
+    top: 430%;
+    left: 15%;
+}
+
+.puri-4 {
+    position: absolute;
+    height:9%;
+    width:8%;
+    top: 260%;
+    right: 15%;
+}
+
+.puri-5 {
+    position: absolute;
+    height:9%;
+    width:8%;
+    top: 370%;
+    right: 16%;
+}
+
+.puri-6 {
+    position: absolute;
+    top: 460%;
+    right: 15%;
+}
+
+.puri-7 {
+    position: absolute;
+    top: 560%;
+    right: 15%;
+}
+
+.puri-8 {
+    position: absolute;
+    top: 510%;
+    left: 15%;
+}
+
+.puri-9 {
+    position: absolute;
+    top: 560%;
+    left: 15%;
+}
+
+
+.ittekoibtn {
+    margin-top: 50%;
+    font-size: 150%;
+}
+
+.btn { 
+    font-size: 150%;
+    font-style: underline;
+    color: black;
+}
+
+.part4 img{
+    height:80%;
+    width:70%;
+}
+}

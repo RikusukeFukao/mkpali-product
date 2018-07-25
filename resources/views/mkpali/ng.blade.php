@@ -18,7 +18,7 @@
       </div>
           
       <div class="btn2">
-        {!! link_to_route('welcome.get', '一刻も早く死にます', null, ['class' => 'btn btn-sm btn-primary']) !!}
+        {!! link_to_route('welcome.get', 'TOPに戻る', null, ['class' => 'btn btn-sm btn-primary']) !!}
       </div>
     </div>
 </body>

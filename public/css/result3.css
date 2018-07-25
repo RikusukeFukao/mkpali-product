@@ -141,7 +141,163 @@ a {
     border-width: 10px;
 }
 
-.ittekoibtn{
-    font-size:100%;
-    
+
+.ittekoibtn {
+    margin-top: 2%;
+    font-size: 150%;
+    color: #61605C;
+}
+
+.btn { 
+    font-size: 150%;
+    font-style: underline;
+    color: #61605C;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 750px) {
+    body::before{
+    background: url("/images/courtback.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-color:white;
+}
+
+/*りくぞう写真*/
+.rikuzou img {
+    position: absolute;
+    top: 28%;
+    left: 0%;
+    height: 70%;
+    width: 50%;
+    z-index: 20;
+}
+
+
+
+.real {
+    color: #DCDDDD;
+    position: absolute;
+    font-size:400%;
+    left: 40%;
+    top: 25%;
+    font-weight: 900;
+    z-index: 30;
+    font-family: 'result3';
+}
+
+/*指示書*/
+.content {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'MS UI Gothic',sans-serif;
+    color: white;
+    background-color: #61605C;
+    width: 50%;
+    text-shadow: 2px 2px 0 #000,
+             -2px 2px 0 #000,
+             2px -2px 0 #000,
+             -2px -2px 0 #000;
+}
+
+
+#wrap{
+    background-color: #DEDED6;
+    margin-top: 55%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    border-radius: 1em;
+}
+
+
+.part1{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 0 auto;
+    width:80%; height:300%;
+    color: #61605C;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+
+.enjoy {
+    color: #61605C;
+    font-size: 150%;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+
+.part2{
+    border-bottom: 2px dashed black;
+    margin: 0 auto;
+    width:80%; height:300%;
+    color: #61605C;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+
+.part3{
+    border-bottom: 2px dashed black;
+    margin: 0 auto;
+    width:80%; height:300%;
+    color: #61605C;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+
+.part4{
+    border-bottom: 2px solid black;
+    margin: 0 auto;
+    width:80%; height:300%;
+    color: #61605C;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+
+.part5 {
+    margin: 0 auto;
+   
+    width:80%; height:300%;
+    color: #61605C;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+
+p {
+    font-size: 85%;
+    line-height:250%;
+    font-weight: 400;
+}
+
+a {
+    color: #61605C; 
+    font-size: 150%;
+    display: inline-block;
+    margin-top:10%;
+    margin-bottom: 10%;
+    padding: 5px;
+    border: 1px double #61605C;
+    border-width: 10px;
+}
+
+.ittekoibtn {
+    margin-top: 30%;
+    font-size: 150%;
+    color: #61605C;
+}
+
+.btn { 
+    font-size: 150%;
+    font-style: underline;
+    color: #61605C;
+    margin-bottom: 2%;
+}
+
 }
