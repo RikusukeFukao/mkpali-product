@@ -53,17 +53,9 @@
             </div>  
             
         <!--地図-->
-            <div id="map" style="width:400px; height:300px; color:black"/></div>
-    
-            <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
-            <script type="text/javascript">
-            window.onload = function(){
-            var ymap = new Y.Map("map");
-            ymap.drawMap(new Y.LatLng(35.660126, 139.699425), 17, Y.LayerSetId.NORMAL);
-            var label = new Y.Label(new Y.LatLng(35.660126, 139.699425), "渋谷センター街");
-            ymap.addFeature(label);
-    };
-            </script>
+            <img src="./images/map-puri.jpg" alt="map" width=400 height=300>
+            
+            
         
             <div class="part3">
                 <h3>どんなポーズをとればいいかわからねぇ？！</h3>
@@ -121,12 +113,11 @@
                 <img src="./images/puri-2.jpg" alt="fukidashi" width=80 height=80 class="puri-9">
             </div>
                 
+        
         <div class="ittekoibtn">
               最後までほんとに読んだか？<br>
-          <a href="ittekoi1" class="btn btn-lg animated-button thar-three">YES</a>
-          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
-          </div>    
-                
+          <a href="ittekoi1" class="btn">》YES</a>
+        </div>       
                 
     <!--wrapのdiv-->
     </div>
