@@ -8,7 +8,7 @@ src: url('font/result5.woff') format('woff');
 
 body {
     background-image: url("../images/shishaback.jpg");
-    color: white;
+    color: #FEF7E7;
     text-align: center;
     background-size: cover;
     background-position: center;
@@ -168,10 +168,11 @@ p.margin-bottom {
 .ittekoibtn {
     margin-top: 5%;
     font-size: 150%;
+    color: #FEF7E7;
 }
 
 .btn { 
     font-size: 150%;
     font-style: underline;
-    color: white;
+    color: #FEF7E7;
 }
