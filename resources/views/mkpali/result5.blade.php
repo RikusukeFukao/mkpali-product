@@ -72,7 +72,7 @@
             </p>
         
         <div class="map">
-        <img src="./images/shishamap.png" alt="map">
+            <img src="./images/shishamap.png" alt="map">
         </div>
         <div class="ittekoibtn">
             最後までほんとに読んだか？<br>
