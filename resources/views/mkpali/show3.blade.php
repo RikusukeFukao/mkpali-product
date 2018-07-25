@@ -41,10 +41,6 @@
           <a href="result6" class="yesbtn">俺がやる!</a>
           
           
-          <?php }elseif ($r == 6){ ?>
-          
-          <h1>ガラッと髪型変えてこい！</h1>
-          <a href="result7" class="yesbtn">俺がやる!</a>
           
           
           <?php }elseif ($r == 7){ ?>
