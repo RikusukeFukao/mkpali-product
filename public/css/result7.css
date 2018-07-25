@@ -37,11 +37,13 @@ body {
     text-shadow: 5px 5px white;
     position: absolute;
     font-size:700%;
-    right: 30%;
+    right: 19%;
     top: 50%;
     font-weight: 900;
-    z-index: 30;
-    font-family: 'Chikara';
+
+    z-index: 10;
+    font-family: 'SimSun';
+
 }
 
 .declare2 {
@@ -49,11 +51,11 @@ body {
     text-shadow: 5px 5px white;
     position: absolute;
     font-size:700%;
-    right: 10%;
+    right: 2%;
     top: 70%;
     font-weight: 900;
     z-index: 30;
-    font-family: 'Chikara';
+    font-family: 'SimSun';
 }
 
 .man img {
