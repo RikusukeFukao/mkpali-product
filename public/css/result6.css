@@ -12,7 +12,7 @@ src: url('font/0720Chikara.woff') format('woff')
 body {
     background-color: black;
     background-image: url("../images/nampa-background.jpg");
-    font-family: 'Yu Gothic';
+    font-family: 'メイリオ', Meiryo,sans-serif;
     text-align: center;
     background-size: cover;
     background-position: center;
@@ -39,10 +39,10 @@ body {
     text-align: left;
     transform: rotate(-10deg);
     font-weight: 900;
-    font-size:700%;
+    font-size:600%;
     color: #fff;
     text-shadow: 0 0 15px #FF6694;
-    font-family: 'Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4', sans-serif;
+    font-family: 'メイリオ', Meiryo,sans-serif;
     z-index: 10;
 }
 
@@ -50,7 +50,7 @@ body {
 /*指示書*/
     .content {
       /*font-family: 'Nixie One', cursive;*/
-    font-size: 300%;
+    font-size: 250%;
     width: 50%;
     font-weight: 900;
         
@@ -61,6 +61,7 @@ body {
      padding: 1em 2em; /* Adjust to suit */
      margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the content 'graphics' take up 24px themselves so we double it. */
      width: 30%;
+     font-family: 'メイリオ', Meiryo,sans-serif;
     }
     .content:before, .content:after {
      content: "";
@@ -120,7 +121,7 @@ body {
 
 .heart1{
    animation: pounding .5s linear infinite alternate;
-   font-size: 800%;
+   font-size: 1500%;
    color:red;
 }
  
@@ -134,6 +135,7 @@ body {
     font-weight: 900;
     color: white;
     margin-top:10%;
+    font-family: 'メイリオ', Meiryo,sans-serif;
 }
 
 .iikoto-contents{
