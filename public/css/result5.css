@@ -1,15 +1,9 @@
 @charset "utf-8";
 
 @font-face {
-font-family: "GenEi";
-src: url('font/0718GenEi.eot');
-src: url('font/0718GenEi.woff') format('woff');
-}
-
-@font-face {
-font-family: "Chikara";
-src: url('font/0719Chikara.eot');
-src: url('font/0719Chikara.woff') format('woff')
+font-family: "result5";
+src: url('font/result5.eot');
+src: url('font/result5.woff') format('woff');
 }
 
 body {
@@ -25,11 +19,11 @@ body {
 /*りくぞう写真*/
 .rikuzou img {
     position: absolute;
-    bottom: 0%;
+    top: 10%;
     left: 30%;
-    height: 550px;
+    height: 400px;
     width: 550px;
-    z-index: 20;
+    z-index: 30;
 }
 
 .shisha img {
@@ -42,11 +36,11 @@ body {
     color: white;
     position: absolute;
     font-size:700%;
-    left: 27%;
+    left: 21%;
     top: 0%;
     font-weight: 900;
     z-index: 10;
-    font-family: 'Chikara';
+    font-family: "result5";
 }
 
 /*指示書*/
@@ -64,7 +58,7 @@ body {
 
 #wrap{
     background:linear-gradient(180deg,#2F7865 0%,#F5B443 50%,#E62B34 100%);
-    margin-top: 55%;
+    margin-top: 40%;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 5%;
@@ -164,14 +158,20 @@ p.margin-bottom {
     margin-bottom: 3%;
 }
 
-#map {
+.map img {
     position: relative;
-    left: 24%;
-    margin-bottom: 5%;
     margin-top: 2%;
+    width: 400px;
+    height:300px; 
 }
 
-.ittekoibtn{
-    font-size:100%;
-    
+.ittekoibtn {
+    margin-top: 5%;
+    font-size: 150%;
+}
+
+.btn { 
+    font-size: 150%;
+    font-style: underline;
+    color: white;
 }

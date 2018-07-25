@@ -75,9 +75,16 @@
             <h3>さあ今、クリックして裁判傍聴に出発だ！！！</h3>
             <a href="http://www.courts.go.jp/map.html">》裁判所の場所を見る</a>
         </div>
+<<<<<<< Updated upstream
         <div class="ittekoibtn">
             最後までほんとに読んだか？<br>
         <a href="ittekoi2" class="btn btn-lg animated-button thar-three">YES</a>
+=======
+        
+        <div class="ittekoibtn">
+              最後までほんとに読んだか？<br>
+        <a href="ittekoi3" class="btn">YES</a>
+>>>>>>> Stashed changes
         </div>
         
     </div>
