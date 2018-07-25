@@ -43,3 +43,4 @@ Route::get('ittekoi7', 'MkpaliController@ittekoi7')->name('ittekoi7.get');
 Route::get('ittekoi8', 'MkpaliController@ittekoi8')->name('ittekoi8.get');
 Route::get('ittekoi9', 'MkpaliController@ittekoi9')->name('ittekoi9.get');
 
+
