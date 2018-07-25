@@ -7,11 +7,13 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-color:black;
+    font-family: "welcome";
 }
 
-@font-face{
-  font-family: "app";
-  src: url("/images/app.woff") format("woff");
+@font-face {
+    font-family: "welcome";
+    src: url('font/welcome.eot');
+    src: url('font/welcome.woff') format('woff');
 }
 
 
@@ -23,6 +25,7 @@ p{
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
+    font-family: "welcome";
 }
 
 .text-center{
@@ -284,6 +287,7 @@ p{
     background-attachment: fixed;
     background-size: 100% auto;
     background-color:black;
+    font-family: "welcome";
 }
     
   p{
@@ -294,6 +298,7 @@ p{
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
+    font-family: "welcome";
 }
 
 .text-center{
