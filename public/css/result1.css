@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@font-face {
+font-family: "Chikara";
+src: url('font/0720Chikara.eot');
+src: url('font/0720Chikara.woff') format('woff')
+}
 
 @font-face {
 font-family: "Azuki";
