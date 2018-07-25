@@ -88,7 +88,7 @@
         
         <secrtion>
             <div class=rikuzosoukai>
-            <img src="../images/gattu.png" alt="soukai" height="200" width="180" />
+            <img src="../images/gattu.png" alt="soukai" class="soukai-img" />
             </div>
         
             <div class=soukai>
@@ -107,7 +107,7 @@
             
         <section>
             <div class=rikuzopositive>
-                <img src="../images/banzai.png" alt="positive" height="200" width="300" />
+                <img src="../images/banzai.png" alt="positive" class="positive-img" />
             </div>
             
             <div class= "positive">
@@ -125,7 +125,7 @@
         
         <section>
             <div class=rikuzolucky>
-                <img src="../images/nayami.png" alt="positive" height="200" width="300" />
+                <img src="../images/nayami.png" alt="positive" class="lucky-img" />
 
             </div>
             
