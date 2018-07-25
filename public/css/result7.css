@@ -107,6 +107,7 @@ body {
     z-index: 10;
     background: repeating-linear-gradient(-34deg, white, white 20px, #0C40AE 20px, #0C40AE 45px, white 45px, white 65px, #F52E1F 65px, #F52E1F 90px);
     animation: move-stripe 300s infinite linear;
+    font-family:'Simsun';
 }
 
 @keyframes move-stripe {
