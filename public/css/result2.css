@@ -39,10 +39,10 @@ body {
 /*りくぞう写真*/
 .rikuzou img {
     position: absolute;
-    bottom: 0%;
-    left: 23%;
-    height: 800px;
-    width: 800px;
+    bottom: -11%;
+    left: 22%;
+    height: 600px;
+    width: 900px;
     z-index: 10;
 }
 
@@ -51,7 +51,7 @@ body {
     position: absolute;
     font-size:650%;
     left: 10%;
-    top: 0%;
+    top: 10%;
     font-weight: 900;
     z-index: 20;
     font-family: 'Chikara';
@@ -249,6 +249,10 @@ font-family: 'Yu Gothic'
     line-height: 250%;
     font-weight: 900;
 }
+.soukai-img{
+    width: 30%;
+    height: 30%;
+}
 
 /*圧倒的ポジティブ思考*/
 .positive{
@@ -286,6 +290,10 @@ font-family: 'Yu Gothic'
     font-weight: 900;
 }
 
+.positive-img{
+    width: 40%;
+    height: 40%;
+}
 
 /*圧倒的運試し*/
 .lucky{
@@ -321,6 +329,11 @@ font-family: 'Yu Gothic'
     font-size: 150%;
     line-height: 250%;
     font-weight: 900;
+}
+
+.lucky-img{
+    width: 30%;
+    height: 30%;
 }
 
 /*おすすめパチンコ*/

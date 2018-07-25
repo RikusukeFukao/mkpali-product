@@ -53,17 +53,9 @@
             </div>  
             
         <!--地図-->
-            <div id="map" style="width:400px; height:300px; color:black"/></div>
-    
-            <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPUVUWnNBcEZlcWxPOSZzPWNvbnN1bWVyc2VjcmV0Jng9ZDE-"></script>
-            <script type="text/javascript">
-            window.onload = function(){
-            var ymap = new Y.Map("map");
-            ymap.drawMap(new Y.LatLng(35.660126, 139.699425), 17, Y.LayerSetId.NORMAL);
-            var label = new Y.Label(new Y.LatLng(35.660126, 139.699425), "渋谷センター街");
-            ymap.addFeature(label);
-    };
-            </script>
+            <img src="./images/map-puri.jpg" alt="map" width=400 height=300>
+            
+            
         
             <div class="part3">
                 <h3>どんなポーズをとればいいかわからねぇ？！</h3>
