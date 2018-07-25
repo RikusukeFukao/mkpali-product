@@ -46,6 +46,11 @@
                 <p id="recommendation">そんな君におすすめの美容院は...</p><br>
             </p>
             
+            <div class='yubisasi'>
+                  <img src="./images/yajirushi.png" alt="yubisasi">
+            </div>
+            
+            
             <p>
                 ココだ！
             </p>
@@ -80,10 +85,12 @@
                 window.onload = function(){
                 var ymap = new Y.Map("map");
                 ymap.drawMap(new Y.LatLng(35.661300, 139.697927), 17, Y.LayerSetId.NORMAL);
-                var label = new Y.Label(new Y.LatLng(35.661300, 139.697927), "チルイン<br>03-6427-0826");
+                var label = new Y.Label(new Y.LatLng(35.661300, 139.697927), "CLIPJOINTGOD<br>03-6427-0826");
                 ymap.addFeature(label);
         };
                 </script>
+            
+            <br><br><br>
             
             
             <div class="comb">
@@ -93,8 +100,7 @@
                 <p>
                     できる髪型...<span id="thick">レオパード柄、あほ毛ハート</span>など<br>
 
-                   
-               
+
                  <div class="hyou">
                      <img src="./images/hyou.png" alt="りくぞう"><img src="./images/ha-to.png" alt="りくぞう">
                 </div>   
@@ -104,6 +110,11 @@
                 </p>
             
             
+            <div class='candymap'>
+                  <img src="./images/cute candy.png" alt="candy">
+            </div>
+               
+            <br><br><br><br><br><br>
             <h2>
                 自分が変わるのにいくらかとかは大した問題ではない。<br>
                 もはやメニューに価値はない!
@@ -118,16 +129,30 @@
                     カット：<span id="thick">70,000円</span><br>
                     銀座1丁目駅徒歩１分<br>
                 </p>
+                
+            <div class='EQymap'>
+                  <img src="./images/EQ.png" alt="EQ">
+            </div>
+            
             
             
             <div class="chair">
                 <img src="./images/chair.png" alt="chair">
             </div>
+            
+            <br><br><br>
+            
             <h3>ヘアケア専門特化集団！LILY！！</h3>
                 <p>
                     １日３名限定メニュー：<span id="thick">162,000円</span><br>
                     表参道から徒歩5分<br>
                 </p>
+                
+            <div class='lilymap'>
+                  <img src="./images/lily.png" alt="lily">
+            </div>
+                
+                
         </div>   
         <br>
             <br>            
