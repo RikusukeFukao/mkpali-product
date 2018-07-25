@@ -22,11 +22,7 @@ body {
     position: absolute;
     bottom: 0%;
     left: 0%;
-<<<<<<< Updated upstream
-    height: 60-0px;
-=======
     height: 550px;
->>>>>>> Stashed changes
     width: 550px;
     z-index: 20;
 }
