@@ -13,7 +13,7 @@
         <!--<img src="./images/waterdrops2.png" alt="fixedImage" id="froatButton2">-->
         
         <div class="rikuzou">
-            <img src="./images/syuuzou.gif" alt="りくぞう">
+            <img src="./images/yubisashi.png" alt="りくぞう">
         </div>       
               
         <!--最初のコメント -->
@@ -60,7 +60,7 @@
     
      <section>
         <div class="merit1">
-            <p>1. 独立心・チャレンジ精神が養われる</p>        
+            <p>独立心・チャレンジ精神が養われる</p>        
         </div>
         
         <div class="merit1content">
@@ -79,7 +79,7 @@
     
     <section>
         <div class="merit2">
-            <p>2. 新しい出会いがある</p  >        
+            <p>新しい出会いがある</p  >        
         </div>
         
         <div class="merit2content">
@@ -94,8 +94,7 @@
     
     <div class="ittekoibtn">
               最後までほんとに読んだか？<br>
-    <a href="ittekoi4" class="btn btn-lg animated-button thar-three">YES</a>
-          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
+    <a href="ittekoi4" class="btn">》YES</a>
     </div>
         
     <!--wrapのdiv-->
