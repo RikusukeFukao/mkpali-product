@@ -135,8 +135,13 @@ a {
     color: #61605C; 
     font-size: 150%;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 5%;
     padding: 5px;
     border: 1px double #61605C;
     border-width: 10px;
+}
+
+.ittekoibtn{
+    font-size:100%;
+    
 }

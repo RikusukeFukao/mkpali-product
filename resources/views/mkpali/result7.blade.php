@@ -8,7 +8,7 @@
 
 <body>
     <div class="rikuzou">
-        <img src="./images/gattu.png" alt="りくぞう">
+        <img src="./images/syuuzou.gif" alt="りくぞう">
     </div>       
           
     <!--最初のコメント -->
@@ -62,13 +62,14 @@
             <h3>最強の特殊ヘアを実現！CLIPJOINTGOD！！</h3>
                 <p>
                     できる髪型...<span id="thick">レインボー、スイカ</span>など<br>
+
                  
 
                  <div class="niji">   
                    <img src="./images/ahuroo.png" alt="りくぞう"><img src="./images/suika copy.png" alt="りくぞう">
                 </div>
           
-                    
+
                     ＪＲ山手線巣鴨駅徒歩4分<br>
                     都営三田線巣鴨駅徒歩2分<br>
                 </p>
@@ -91,12 +92,14 @@
             <h3>ポップでキュートな美容室！VIVA☆CUTE CANDY！！</h3>
                 <p>
                     できる髪型...<span id="thick">レオパード柄、あほ毛ハート</span>など<br>
+
                    
                
                  <div class="hyou">
                      <img src="./images/hyou.png" alt="りくぞう"><img src="./images/ha-to.png" alt="りくぞう">
                 </div>   
                    
+
                     下北沢駅徒歩３０秒<br>
                 </p>
             
@@ -125,7 +128,17 @@
                     １日３名限定メニュー：<span id="thick">162,000円</span><br>
                     表参道から徒歩5分<br>
                 </p>
-        </div>    
+        </div>   
+        <br>
+            <br>            
+            <br>
+            <br>
+            <br>
+          <div class="ittekoibtn">
+              最後までほんとに読んだか？<br>
+          <a href="ittekoi2" class="btn btn-lg animated-button thar-three">YES</a>
+          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
+          </div>
         
     </div>
 </body>

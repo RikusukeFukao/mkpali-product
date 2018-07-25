@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 @font-face {
-font-family: "GenEi";
-src: url('font/0718GenEi.eot');
-src: url('font/0718GenEi.woff') format('woff');
+font-family: "Uemaru";
+src: url('font/Uemaru1.eot');
+src: url('font/Uemaru1.woff') format('woff');
 }
 
 @font-face {
@@ -22,7 +22,7 @@ body {
     background-color: black;
     background-image: url("../images/japanmap.jpg");
     color: black;
-    font-family: 'Yu Gothic';
+    font-family: 'Uemaru';
     text-align: center;
     background-size: cover;
     background-position: center;
@@ -48,7 +48,6 @@ body {
     top: 0%;
     font-weight: 900;
     z-index: 10;
-    font-family: 'Chikara';
     color: black;
     /*background-color: #888888;*/
 }
@@ -64,6 +63,7 @@ body {
     margin: 1.5em 0;
     margin-top: 10%;
     font-weight: 900;
+    font-family: 'Uemaru';
     }
 
 /*指示書の囲い*/
@@ -217,4 +217,9 @@ body {
     line-height: 250%;
     font-weight: 900;
     margin-top: 3%;
+}
+
+.ittekoibtn{
+    font-size:100%;
+    
 }

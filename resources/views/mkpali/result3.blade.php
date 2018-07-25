@@ -75,6 +75,17 @@
             <h3>さあ今、クリックして裁判傍聴に出発だ！！！</h3>
             <a href="http://www.courts.go.jp/map.html">》裁判所の場所を見る</a>
         </div>
+            <br>
+            <br>            
+            <br>
+            <br>
+            <br>
+          <div class="ittekoibtn">
+              最後までほんとに読んだか？<br>
+          <a href="ittekoi2" class="btn btn-lg animated-button thar-three">YES</a>
+          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
+          </div>
+        
     </div>
 </body>
 @endsection
