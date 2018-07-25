@@ -30,9 +30,9 @@ body {
 .rikuzou img {
     position: absolute;
     top: 0%;
-    left: 15%;
-    height: 1000px;
-    width: 1000px;
+    left: 45%;
+    height: 800px;
+    width: 600px;
     z-index: 10;
 }
 
@@ -225,4 +225,10 @@ body {
     position: absolute;
     top: 600%;
     left: 15%;
+}
+
+.ittekoibtn{
+    margin-top: 10%;
+    font-size:100%;
+    
 }

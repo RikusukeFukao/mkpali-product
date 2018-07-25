@@ -10,7 +10,7 @@
 
     <body>
         <div class="rikuzou">
-            <img src="./images/banzai.png" alt="りくぞう">
+            <img src="./images/manji2.png" alt="りくぞう">
         </div>       
         
         <div class="font">      
@@ -97,7 +97,7 @@
                     フェイスラインを完全に隠しずるい<span style= "color:red;">盛りテク！</span>
                 </p>
 
-                    <img src="./images/pose3.jpg" alt="pose3" width=300 height=350>
+                    <img src="./images/ago1.png" alt="pose3" width=300 height=350>
                     
                     <div class="fukidashi">
                     <img src="./images/fukidashi.jpg" alt="fukidashi" width=500 height=200>
@@ -121,7 +121,11 @@
                 <img src="./images/puri-2.jpg" alt="fukidashi" width=80 height=80 class="puri-9">
             </div>
                 
-                
+        <div class="ittekoibtn">
+              最後までほんとに読んだか？<br>
+          <a href="ittekoi1" class="btn btn-lg animated-button thar-three">YES</a>
+          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
+          </div>    
                 
                 
     <!--wrapのdiv-->
