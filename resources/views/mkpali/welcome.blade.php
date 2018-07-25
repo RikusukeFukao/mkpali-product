@@ -17,7 +17,9 @@
     <div class="dismiss4"><p class="anim-typewriter-4">１、出されたお題を読む！</p></div>
     <div class="dismiss5"><p class="anim-typewriter-5">２、覚悟を決める！</p></div>
     <div class="dismiss6"><p class="anim-typewriter-6">３、自分で実行する！</p></div>
+
     <div class="dismiss7"><p class="anim-typewriter-7">お題を実行するかは７秒で決めるんだ！</p></div>
+
     <div class="dismiss8"><p class="anim-typewriter-8">お題を変えられるのは３回までだぞ！</p></div>
     <div class="dismiss9"><p class="anim-typewriter-9">最後に</p></div>
     <div class="dismiss10"><p class="anim-typewriter-10">俺は君の背中を押すことしかできない！</p></div>

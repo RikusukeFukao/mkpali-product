@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+@font-face {
+font-family: "ittekoi";
+src: url('font/ipag-ittekoi.eot');
+src: url('font/ipag-ittekoi.woff') format('woff');
+}
+
 body{
     background: url("/images/gokou.jpg");
     background-position: center center;
@@ -17,15 +23,15 @@ body{
     }
 
 @font-face{
-  font-family: "app";
-  src: url("/images/app.woff") format("woff");
+  font-family: "ittekoi";
+  src: url('font/ipag-ittekoi.woff') format('woff');
 }
 
 
 p{
     font-size: 43px;
     font-weight: 900;
-    font-family: "app";
+    font-family: "ittekoi";
     text-align: start;
     white-space: nowrap;
     overflow: hidden;
@@ -148,7 +154,7 @@ p{
   p{
     font-size: 13px;
     font-weight: 900;
-    font-family: "app";
+    font-family: "ittekoi";
     text-align: start;
     white-space: nowrap;
     overflow: hidden;
