@@ -57,7 +57,7 @@
           
           <h1>デモ、参加してみろや！</h1>
           <a href="result9" class="yesbtn">俺がやる!</a>
-          
+          -->
           
           <?php } ?>
           
@@ -80,7 +80,7 @@
           }
         }// end function
         $(function() {
-          countdown('window.location.replace("ng")', 5);
+          countdown('window.location.replace("ng")',5);
         });
         
         </script>
