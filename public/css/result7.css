@@ -1,15 +1,15 @@
 @charset "utf-8";
 
 @font-face {
-font-family: "GenEi";
+font-family: "SimSun";
 src: url('font/0718GenEi.eot');
 src: url('font/0718GenEi.woff') format('woff');
 }
 
 @font-face {
-font-family: "Chikara";
-src: url('font/0719Chikara.eot');
-src: url('font/0719Chikara.woff') format('woff')
+font-family: "SimSun";
+src: url('font/0719SimSun.eot');
+src: url('font/0719SimSun.woff') format('woff')
 }
 
 body {
@@ -37,7 +37,7 @@ body {
     text-shadow: 5px 5px white;
     position: absolute;
     font-size:700%;
-    right: 19%;
+    right: 12%;
     top: 50%;
     font-weight: 900;
 
@@ -155,32 +155,32 @@ span {
 
 .scissors img {
     position: absolute;
-    top: 200%;
-    left: 34%;
+    top: 251%;
+    left: 31%;
     height: 50px;
     width: 50px;
 }
 
 .comb img {
     position: absolute;
-    top: 305%;
-    left: 31%;
+    top: 373%;
+    left: 27%;
     height: 50px;
     width: 50px;
 }
 
 .drier img {
     position: absolute;
-    top: 372%;
-    left: 28%;
+    top: 507%;
+    left: 27%;
     height: 50px;
     width: 50px;
 }
 
 .chair img {
     position: absolute;
-    top: 392%;
-    left: 36%;
+    top: 582%;
+    left: 34%;
     height: 50px;
     width: 50px;
 }
@@ -217,5 +217,31 @@ span {
 
 .ittekoibtn{
     font-size:100%;
+    
+}
+
+.candymap img{
+    left: 0%;
+    height: 300px;
+    width: 390px;
+}
+
+
+.lilymap img{
+    left: 0%;
+    height: 300px;
+    width: 390px;
+}
+
+.EQmap img{
+     left: 0%;
+    height: 300px;
+    width: 390px;   
+}
+
+.yubisasi img{
+         left: 0%;
+    height: 300px;
+    width: 390px;
     
 }
