@@ -1,38 +1,33 @@
 @charset "utf-8";
 
-@font-face {
-font-family: "Chikara";
-src: url('font/0720Chikara.eot');
-src: url('font/0720Chikara.woff') format('woff')
-}
 
 @font-face {
-font-family: "Azuki";
-src: url('font/azukiaaa.eot');
-src: url('font/azukiaaa.woff') format('woff')
+font-family: "Mkpop";
+src: url('font/Mkpop.eot');
+src: url('font/Mkpop.woff') format('woff')
 }
 
 
 body {
     background-color: brown;
-    background-image: url("../images/jiga-back.jpg");
+    background-image: url("../images/jigazou-back-trans.jpg");
     text-align: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: black;
-    font-family:'Azuki';
+    font-family:'Mkpop';
     font-weight: 900;
+    color: #795548;
 }
 
 /*りくぞう写真*/
 .rikuzou img {
     position: absolute;
     top: 0%;
-    left: 0%;
+    left: -10%;
     height: 100%;
-    width: 58%;
+    width: 75%;
     z-index: 10;
 }
 
@@ -41,20 +36,20 @@ body {
 /*よくやったテキスト*/
 .yokuyatta {
     position: absolute;
-    font-size: 500%;
+    font-size: 600%;
     font-weight: 900;
     text-align: left;
-    left: 45%;
-    top: 15%;
+    left: 50%;
+    top: 20%;
     z-index: 20;
     transform: rotate(-10deg);
-    color: #FFCC33;
+    color: #EE0000;
     text-shadow: 5px 5px 1px #795548;
 }
 
 .font{
-    font-family: "メイリオ", sans-serif; 
-    color: white;
+    font-family: "Mkpop", sans-serif; 
+    color:#795548 ;
 }
 
 /*指示書*/
@@ -104,10 +99,11 @@ body {
     .sample h1{
       font-size: 24px;
       margin: 0 0 15px;
-      color: #603913;
+      color: #795548;
     }
     .sample p{
-      font-family: 'arial narrow', serif;
+      font-family: 'Mkpop', serif;
+      color: #795548 ;
       line-height: 1.4em;
     }
 
@@ -123,154 +119,138 @@ body {
 }
 
 .part1{
-    font-size: 150%;
+    font-size: 200%;
     font-weight: 600;
-    line-height: 250%;
-    color: black;
+    line-height: 300%;
     padding-top: 8%;
 }
 
-.part1 h3{
-    font-size: 200%;
-    position: relative;
-    padding: .3em;
+.part1 p{
+    line-height: 250%;
+    letter-spacing: 10px;
+}
+/*絵具風アンダーライン*/
+/*.part1 h3:after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    margin: 0 auto;*/
+/*    height: 15px;*/
+/*    width: 40%;*/
+/*    background: linear-gradient(to right, #333366, transparent);*/
+/*}*/
+
+.part2 h3{
+    font-size: 400%;
+    color:#795548 ;
+    font-family:'Mkpop';
+    font-weight: 600;
+    padding-top: 8%;
 }
 
-.part1 h3:after {
+.part2 h3:after {
     content: "";
     display: block;
     margin: 0 auto;
     height: 15px;
     width: 40%;
-    background: linear-gradient(to right, #333366, transparent);
+    border-radius: 1em;
+    background: linear-gradient(to right, #CC0033, transparent);
 }
 
-.part2 h3{
-    font-size: 250%;
-    font-weight: 900;
-    line-height: 250%;
-    padding-top: 8%;
-    color: black;
-    text-shadow: 0 1px 30px #FF00FF, 0 0 12px #FF00FF, 2px 5px 60px #FF00FF;
-}
-
-.part2 p{
-    font-size: 150%;
+.part2 h4{
+    font-size: 200%;
+    line-height: 300%;
+    color:#795548 ;
+    font-family:'Mkpop';
     font-weight: 600;
+    padding: 3%;
+    text-align: left;
+    position: relative;
+    left: 18%;
+}
+
+.point-content{
+    font-size: 150%;
     line-height: 250%;
-    color: black;
-    padding-top: 3%;
+    letter-spacing: 10px;
+    color:#795548;
+    font-family: 'Mkpop';
+    font-weight: 900;
+    text-align: left;
+    position: relative;
+    left: 20%;
 }
 
 .part3 h3{
-    font-size: 250%;
+    font-size: 300%;
+    color:#795548 ;
+    font-family:'Mkpop';
     font-weight: 600;
-    line-height: 250%;
-    color: black;
-    padding-top: 8%;
-    text-shadow: 0 1px 30px #FF00FF, 0 0 12px #FF00FF, 2px 5px 60px #FF00FF;
+    padding-top: 5%;
 }
 
-.part3 p{
-    font-size: 150%;
-    font-weight: 600;
-    line-height: 250%;
-    color: black;
-    padding-top: 3%;
-    text-shadow: 0 1px 30px #FF00FF, 0 0 12px #FF00FF, 2px 5px 60px #FF00FF;
-}
-
-
-
-/*ポーズの説明*/
-.fukidashi img{
-    position: relative;
-    
+.part3 h3:after {
+    content: "";
+    display: block;
     margin: 0 auto;
+    height: 15px;
+    width: 53%;
+    border-radius: 1em;
+    background: linear-gradient(to right, #330099, transparent);
 }
 
-.pose1 {
-    position: absolute;
-    top: 428%;
-    left: 28%;
+.part3 h4{
+    font-size: 200%;
+    line-height: 300%;
+    color:#795548 ;
+    font-family:'Mkpop';
+    font-weight: 600;
+    padding: 3%;
+    text-align:left;
+    position: relative;
+    left: 18%;
+}
+
+.part4 h3{
+    font-size: 300%;
+    color:#795548 ;
+    font-family:'Mkpop';
+    font-weight: 600;
+    padding-top: 5%;
+}
+
+.part4 h3:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    height: 15px;
+    width: 40%;
+    border-radius: 1em;
+    background: linear-gradient(to right, #339933, transparent);
+}
+
+.part4 h4{
+    font-size: 200%;
+    line-height: 300%;
+    color:#795548 ;
+    font-family:'Mkpop';
+    font-weight: 600;
+    padding: 3%;
+    text-align:left;
+    position: relative;
+    left: 18%;
+}
+
+.ittekoibtn {
+    margin-top: 5%;
     font-size: 150%;
     font-weight: 900;
-    padding: 5%;
-    z-index: 20;
-    
 }
 
-.pose2{
-    position: absolute;
+.btn { 
     font-size: 150%;
-    font-weight: 900;
-    padding: 5%;
-    z-index: 20;
-    top: 513%;
-    left: 28%;
-}
-
-.pose3{
-    position: absolute;
-    font-size: 150%;
-    font-weight: 900;
-    padding: 5%;
-    z-index: 20;
-    top: 600%;
-    left: 28%;
+    font-style: underline;
+    color: #795548;
 }
 
 
-.puri-1 {
-    position: absolute;
-    top: 200%;
-    left: 15%;
-}
-
-.puri-2 {
-    position: absolute;
-    top: 300%;
-    left: 15%;
-}
-
-.puri-3 {
-    position: absolute;
-    top: 400%;
-    left: 15%;
-}
-
-.puri-4 {
-    position: absolute;
-    top: 250%;
-    right: 15%;
-}
-
-.puri-5 {
-    position: absolute;
-    top: 350%;
-    right: 15%;
-}
-
-.puri-6 {
-    position: absolute;
-    top: 450%;
-    right: 15%;
-}
-
-.puri-7 {
-    position: absolute;
-    top: 550%;
-    right: 15%;
-}
-
-.puri-8 {
-    position: absolute;
-    top: 500%;
-    left: 15%;
-}
-
-.puri-9 {
-    position: absolute;
-    top: 600%;
-    left: 15%;
-}
