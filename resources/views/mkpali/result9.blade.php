@@ -142,6 +142,11 @@
         <div class="zorozoro">
             <img src="./images/zorozoro.png" alt="zorozoro">
         </div>
+        
+        <div class="ittekoibtn">
+              最後までほんとに読んだか？<br>
+        <a href="ittekoi2" class="btn">》YES</a>
+        </div>
     </div>    
 </body>
 @endsection
