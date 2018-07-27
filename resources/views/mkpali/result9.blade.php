@@ -145,7 +145,7 @@
         
         <div class="ittekoibtn">
               最後までほんとに読んだか？<br>
-        <a href="ittekoi2" class="btn">》YES</a>
+        <a href="ittekoi9" class="btn">》YES</a>
         </div>
     </div>    
 </body>

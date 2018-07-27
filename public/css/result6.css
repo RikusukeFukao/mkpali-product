@@ -191,7 +191,16 @@ body {
 .clear{
     clear: both;
 }
-.ittekoibtn{
-    font-size:100%;
-    
+
+.ittekoibtn {
+    margin-top: 30%;
+    font-size: 100%;
+    color: #61605C;
+}
+
+.btn { 
+    font-size: 100%;
+    font-style: underline;
+    color: #61605C;
+    margin-bottom: 4%;
 }
