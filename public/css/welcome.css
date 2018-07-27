@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+@font-face {
+font-family: "welcome";
+src: url('font/welcome.eot');
+src: url('font/welcome.woff') format('woff');
+}
+
 body{
     background: url("/images/viber image.jpg");
     background-position: center center;
@@ -10,15 +16,15 @@ body{
 }
 
 @font-face{
-  font-family: "app";
-  src: url("/images/app.woff") format("woff");
+  font-family: "welcome";
+  src: url("/font/welcome.woff") format("woff");
 }
 
 
 p{
     font-size: 43px;
     font-weight: 900;
-    font-family: "app";
+    font-family: "welcome";
     text-align: start;
     white-space: nowrap;
     overflow: hidden;
@@ -53,9 +59,9 @@ p{
 
 /* TextAnimation */
 .anim-typewriter-1 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 1s;
+    animation-delay: 2s;
     position: absolute;
     top: 28%;
     left: 10%;
@@ -63,10 +69,10 @@ p{
 .dismiss1 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 10s;
+    animation-delay: 8s;
 }
 .anim-typewriter-2 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
     animation-delay: 5s;
     position: absolute;
@@ -76,14 +82,14 @@ p{
 .dismiss2 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 10s;
+    animation-delay: 8s;
 }
 
 
 .anim-typewriter-3 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 11s;
+    animation-delay: 9s;
     position: absolute;
     top: 28%;
     left: 10%;
@@ -91,13 +97,13 @@ p{
 .dismiss3 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 18s;
+    animation-delay: 13s;
     
 }
 .anim-typewriter-4 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 15s;
+    animation-delay: 11s;
     position: absolute;
     top: 65%;
     left: 10%;
@@ -105,14 +111,14 @@ p{
 .dismiss4 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 18s;
+    animation-delay: 13s;
 }
 
 
 .anim-typewriter-5 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 19s;
+    animation-delay: 14s;
     position: absolute;
     top: 28%;
     left: 10%;
@@ -120,12 +126,12 @@ p{
 .dismiss5 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 24s;
+    animation-delay: 18s;
 }
 .anim-typewriter-6 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 21s;
+    animation-delay: 16s;
     position: absolute;
     top: 65%;
     left: 10%;
@@ -133,14 +139,14 @@ p{
 .dismiss6 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 24s;
+    animation-delay: 18s;
 }
 
 
 .anim-typewriter-7 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 25s;
+    animation-delay: 19s;
     position: absolute;
     top: 28%;
     left: 10%;
@@ -148,12 +154,12 @@ p{
 .dismiss7 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 34s;
+    animation-delay: 24s;
 }
 .anim-typewriter-8 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 29s;
+    animation-delay: 22s;
     position: absolute;
     top: 65%;
     left: 10%;
@@ -161,14 +167,14 @@ p{
 .dismiss8 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 34s;
+    animation-delay: 24s;
 }
 
 
 .anim-typewriter-9 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 35s;
+    animation-delay: 26s;
     position: absolute;
     top: 28%;
     left: 10%;
@@ -176,12 +182,12 @@ p{
 .dismiss9 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 44s;
+    animation-delay: 29s;
 }
 .anim-typewriter-10 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 39s;
+    animation-delay: 28s;
     position: absolute;
     top: 65%;
     left: 10%;
@@ -189,14 +195,14 @@ p{
 .dismiss10 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 44s;
+    animation-delay: 30s;
 }
 
 
 .anim-typewriter-11 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 45s;
+    animation-delay: 31s;
     position: absolute;
     top: 28%;
     left: 10%;
@@ -204,12 +210,12 @@ p{
 .dismiss11 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 54s;
+    animation-delay: 35s;
 }
 .anim-typewriter-12 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 49s;
+    animation-delay: 33s;
     position: absolute;
     top: 65%;
     left: 10%;
@@ -217,14 +223,14 @@ p{
 .dismiss12 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 54s;
+    animation-delay: 35s;
 }
 
 
 .anim-typewriter-13 {
-    animation: typewriter 5s steps(44) 2s 1 normal both,
+    animation: typewriter 2s steps(44) 2s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 56s;
+    animation-delay: 36s;
     position: absolute;
     top: 28%;
     left: 23%;
@@ -234,7 +240,7 @@ p{
     color: transparent;
     animation: gradationTest2;
     animation-fill-mode: forwards;
-    animation-delay: 60s;
+    animation-delay: 39s;
     font-weight: 900;
     position: absolute;
     top: 78%;
@@ -289,7 +295,7 @@ p{
   p{
     font-size: 13px;
     font-weight: 900;
-    font-family: "app";
+    font-family: "welcome";
     text-align: start;
     white-space: nowrap;
     overflow: hidden;
