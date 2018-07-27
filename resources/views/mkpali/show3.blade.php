@@ -4,7 +4,7 @@
       <div class="show"> 
         <div class="text-center">
           <?php
-          $r = rand(0, 7);
+          $r = rand(0, 8);
           if ($r == 0) { ?>
             
           <h1>一人でプリクラ、撮ってこい！</h1>
@@ -41,6 +41,11 @@
           <a href="result6" class="yesbtn">俺がやる!</a>
           
           
+          <?php }elseif ($r == 6){ ?>
+          
+          <h1>ガラッと髪型変えてこい！</h1>
+          <a href="result7" class="yesbtn">俺がやる!</a>
+          
           
           <?php }elseif ($r == 7){ ?>
           
@@ -48,7 +53,7 @@
           <a href="result8" class="yesbtn">俺がやる!</a>
           
           
-          <?php }elseif ($r == 6){ ?>
+          <?php }elseif ($r == 8){ ?>
           
           <h1>デモ、参加してみろや！</h1>
           <a href="result9" class="yesbtn">俺がやる!</a>
