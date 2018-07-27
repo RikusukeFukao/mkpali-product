@@ -182,7 +182,7 @@ p{
 .dismiss9 {
     animation: gradationTest 1s;
     animation-fill-mode: forwards;
-    animation-delay: 29s;
+    animation-delay: 30s;
 }
 .anim-typewriter-10 {
     animation: typewriter 2s steps(44) 2s 1 normal both,
