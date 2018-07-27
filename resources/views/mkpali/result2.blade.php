@@ -203,8 +203,7 @@
             
           <div class="ittekoibtn">
               最後までほんとに読んだか？<br>
-          <a href="ittekoi2" class="btn btn-lg animated-button thar-three">YES</a>
-          <!--{!! link_to_route('ittekoi2.get', '》YES', null, ['class' => 'btn btn-lg btn-d']) !!}-->
+          <a href="ittekoi2" class="btn">》YES</a>
           </div>
 
 
