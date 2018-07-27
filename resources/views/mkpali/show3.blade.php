@@ -42,8 +42,7 @@
           
           
           
-          
-          <?php }elseif ($r == 7{ ?>
+          <?php }elseif ($r == 7){ ?>
           
           <h1>自画像描いて、みませんか？</h1>
           <a href="result8" class="yesbtn">俺がやる!</a>
